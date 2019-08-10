@@ -1,0 +1,15 @@
+<% include ./partials/header%>
+
+<h1>
+	Welcome to <%=school%>! What keyword would you like to search for?
+</h1>
+
+<div>
+	<form action="/<%=school%>/courses", method="GET"> 
+		<input type="text" placeholder="search term" name="search">
+		<input type="submit">
+	</form>
+	
+</div>
+
+<% include ./partials/footer%>

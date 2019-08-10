@@ -1,0 +1,30 @@
+{
+  "name": "coursecache",
+  "version": "1.0.0",
+  "description": "Course Cache is a web service that helps students find new, interesting courses based on their interests/willingness to learn something new.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielparkdp/CourseCache.git"
+  },
+  "author": "Cem Torun and Daniel Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielparkdp/CourseCache/issues"
+  },
+  "homepage": "https://github.com/danielparkdp/CourseCache#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "module-exports": "^1.0.0",
+    "mongoose": "^5.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

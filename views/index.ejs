@@ -1,0 +1,17 @@
+<h1>
+	Welcome to CourseCache.
+</h1>
+
+<h3>
+	Look at all these courses!
+</h3>
+
+<% courses.forEach(function(course){ %>
+	<div>
+		<h2><%= course.title %></h2>
+		<p><%= course.description.substring(0,100) %>...</p>
+	</div>
+	<a href="/courses/<%= course._id%>">Read More</a>
+
+
+<%}); %>
