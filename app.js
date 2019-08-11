@@ -8,7 +8,11 @@ var bodyParser     = require("body-parser"),
 
 
 // APP CONFIG
-mongoose.connect("mongodb://localhost/CourseCache", { useNewUrlParser: true }); 
+// mongoose.connect("mongodb://localhost/CourseCache", { useNewUrlParser: true }); 
+
+mongoose.connect("mongodb+srv://cisac:cemtorun@cluster0-4fjcs.mongodb.net/CourseCache?retryWrites=true&w=majority", 
+				 { useNewUrlParser: true });
+				 
 //var url = "mongodb://localhost/CourseCache";
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
@@ -60,6 +64,8 @@ app.get("/courses/:id", function(req, res){
 });
 
 
-app.listen(3001, function(){
-	console.log("listening for the courseCache webapp!");
+const port = process.env.PORT || 8080;
+const ip = process.env.IP || "127.0.0.1";
+app.listen(port,function(){
+    console.log("Server has started .... at port "+ port+" ip: "+ip);
 });

@@ -32,8 +32,8 @@ western = [
 		description: "calculus calculus calculus calculus calculus "
 	},
 	{
-		title: "tester3",
-		description: "calculus calculus"
+		title: "BUSINESS 1220E - INTRODUCTION TO BUSINESS",
+		description: "Business Administration 1220E, offered by the Ivey Business School, gives students from all faculties the opportunity to learn business fundamentals in finance, marketing, operations, organizational behavior and general management. The course is delivered using Ivey's renowned case method, which challenges students to learn by doing, within an active class environment of no more than 85 students. Students explore real business issues, make management decisions, defend their position, and take action. This course will be particularly appealing to those students who want a glimpse of Ivey's unique learning experience."
 	}
 ]
 
