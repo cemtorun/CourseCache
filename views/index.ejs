@@ -22,7 +22,7 @@
 
   <br><br>
 	
-  <form form action="/<%=school%>/courses", method="GET">
+  <form action="/<%=school%>/courses" method="GET">
 	  <div class="main_search">
 		  <div class="ui fluid search" id="desktop_search_container">
 			<div class="ui icon input">
@@ -59,7 +59,7 @@
 					<%= course.description.substring(0,100) %>
 			  	</div>
 				<div class="description_text_read_more">
-					<a href="/courses/<%= course._id%>">Read More</a>
+					<a href="/<%=school%>/courses/<%= course._id%>">Read More</a>
 				</div>
 			</button>
 	  </li>

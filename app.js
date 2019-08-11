@@ -3,8 +3,9 @@ var bodyParser     = require("body-parser"),
     express        = require("express"),
 	westernCourse  = require("./models/western"),
     brownCourse    = require("./models/brown"),
-    app            = express()
-    seedDB         = require("./seeds")
+    app            = express(),
+    seedDB         = require("./seeds"),
+	url            = require('url')
 
 
 // APP CONFIG
@@ -39,6 +40,7 @@ app.get("/contact", function(req, res){
 })
 
 app.get("/:school", function(req, res){
+	//console.log(req.url)
 	var school = req.query.university
 	app.set("schoolName", school) // use app.get()
 	res.render("search", {school: school});
@@ -47,13 +49,22 @@ app.get("/:school", function(req, res){
 // COURSE SEARCH PAGE
 app.get("/:school/courses", function(req, res){
 	var search = req.query.search.toLowerCase();
-	var school = app.get("schoolName");
+	//var school = app.get("schoolName");
+	var school = "western";
+	var url = req.url;
+	
+	if (url.includes("brown/courses") || url.includes("university=brown")) {
+		school = "brown";
+	} else if (url.includes("western/courses") || url.includes("university=western")) {
+		school = "western";
+	};
+	
 	model = eval(school+"Course");
 	model.find({ $text: { $search: search } }, function(err, courses) {
 	if(err){
 			console.log(err);
 		} else {
-			res.render("index", {courses: courses, school: app.get("schoolName")}); // represents index.ejs
+			res.render("index", {courses: courses, school: school}); // represents index.ejs
 
 		}
 	});
@@ -61,12 +72,22 @@ app.get("/:school/courses", function(req, res){
 	
 // SHOW ROUTE
 
-app.get("/courses/:id", function(req, res){
+app.get("/:school/courses/:id", function(req, res){
+	
+	var school = "western";
+	var url = req.url;
+	
+	if (url.includes("brown/courses") || url.includes("university=brown")) {
+		school = "brown";
+	} else if (url.includes("western/courses") || url.includes("university=western")) {
+		school = "western";
+	};
+	
 	model.findById(req.params.id, function(err, selectCourse){
 		if (err) {
 			console.log(err);
 		} else {
-			res.render("show", {course: selectCourse, school: app.get("schoolName")});
+			res.render("show", {course: selectCourse, school: school});
 				}
 	});
 });
