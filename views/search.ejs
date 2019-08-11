@@ -1,15 +1,111 @@
 <% include ./partials/header%>
 
-<h1>
-	Welcome to <%=school%>! What keyword would you like to search for?
-</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div>
-	<form action="/<%=school%>/courses", method="GET"> 
-		<input type="text" placeholder="search term" name="search">
-		<input type="submit">
-	</form>
+<head>
+  <title>CourseCache</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/search.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+
+<body>
+
+  <!-- <img id="splash" src="img/upgrade.png" alt="University background" style="width:100%;"> -->
+
+  <a href="/"><img src="img/toplogo.png" class="nav_item_logo"></a>
+  <!-- <div class="nav_item_name"> <a href = "/" style="color:#00144D"> CourseCache</a> </div> -->
+  <div class="nav_item"> <a href="/contact" style="color:#00144D">Contact</a> </div>
+  <div class="nav_item"> <a href="/about" style="color:#00144D">About</a> </div>
+
+
+  <!-- <div id="nav" class="ui grid">
+    <div class="three wide column">
+        <a href="/"><img id="logo" class="nav-item-logo" src="img/logo.png" alt="CourseCache Logo"/></a>
+    </div>
+    <div class="three wide column">
+        <a id="about" class="nav-item" href="/">CourseCache</a>
+    </div>
+    <div class="three wide column">
+        <div id="nav_about"><a id="about" class="nav-item" href="/about">About</a></div>
+
+    </div>
+    <div class="three wide column">
+        <div id="nav_help"><a id="help" class="nav-item" href="/contact">Contact</a></div>
+
+    </div>
+  </div> -->
+
+  <div id="banner">
+    <div id="title_container">
+      <div id="title">CourseCache</div>
+    </div>
+    <img src="img/<%=school%>.png" class="university_logo">
+  </div>
+  <br>
 	
+  <form form action="/<%=school%>/courses", method="GET">
+	
+	  <div class="main_search">
+		  <div class="ui fluid search" id="desktop_search_container">
+			<div class="ui icon input">
+			  <input id="search" class="prompt" type="text" name="search"
+					 placeholder="Type your interests (ex. music, computers, theatre)">
+			  <i class="search icon"></i>
+			</div>
+		  </div>
+	  </div>
+
+	  <div class="center_page">
+		<button type="button submit" class="custom-button" >Search</button>
+	  </div>
+	  
+  </form>
+
+</body>
+
+<div class="bottom_section">
+  <div class="header_container">
+    <div class="hot_courses_title">
+    Explore something new at <span id="upper"><%=school%></span> University
+    </div>
+  </div>
+  <button type="button" class="course_suggestion_button" >
+    <div class="heading_text">
+      ASTRO 0120: The Cosmos
+    </div>
+    <br>
+    <div class="description_text">
+      This course covers everything from the Big Bang to the present day, exploring the facts and figures behind moons, stars, and galaxies.
+    </div>
+  </button>
+  <button type="button" class="course_suggestion_button" >
+    <div class="heading_text">
+      ENGLISH 1000: The Anatomy of a Tragedy
+    </div>
+    <br>
+    <div class="description_text">
+      What makes a story tragic? This course covers the elements of storytelling and plot that build a world of loss, sorrow, and suffering.
+    </div>
+  </button>
+  <button type="button" class="course_suggestion_button" >
+    <div class="heading_text">
+      TAPS 0520: The Realism of GoT
+    </div>
+    <br>
+    <div class="description_text">
+      Theatre is often about making an impossible situation feel real nonetheless. This course observes Game of Thrones from this context.
+    </div>
+  </button>
+  <br><br>
+  <a href="/random"> See more fun and random courses -></a>
 </div>
+
+
+</html>
+
 
 <% include ./partials/footer%>

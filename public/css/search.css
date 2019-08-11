@@ -1,0 +1,238 @@
+#title_container {
+  max-width: 40vw;
+  margin: 0 auto;
+  padding-top: 15vh;
+}
+
+#logo {
+    max-width: 20%;
+}
+
+#upper {
+	text-transform: capitalize;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: url("../img/upgrade.png");
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.nav_container {
+  width:100%;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  height:5%
+}
+
+.nav_item {
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 5%;
+    float: right;
+    vertical-align: middle;
+    font-size: 1vw;
+    margin-top: 2.25%;
+}
+
+.nav_item_name {
+  font-family: 'Work Sans', sans-serif;
+  float:left;
+  margin-left: 0.4%;
+  margin-top: 2.4%;
+  vertical-align: middle;
+  font-size: 1.3vw;
+  max-height:100%;
+  max-width:100%;
+}
+
+.nav_item_logo {
+  font-family: 'Work Sans', sans-serif;
+  float:left;
+  margin-left: 4%;
+  margin-top:1.71%;
+  vertical-align: middle;
+  font-size: 1.3vw;
+  max-width:13.4vw;
+}
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+  background-image: url("../img/dropdown.png");   /* add custom arrow  */
+  background-size: 100%;
+  background-position: right center;
+  font-family: 'Lato', sans-serif;
+  color: #1A1A1A;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  border: 1px solid #DBDADA;
+  border-radius: 100px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 9px;
+  padding-right: 3%;
+  margin-right: 17px;
+}
+
+.custom-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+  font-family: 'Lato', sans-serif;
+  color: #1A1A1A;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  border: 1px solid #DBDADA;
+  border-radius: 100px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 4px;
+}
+
+.options {
+  text-align: center;
+  color: #DBDADA;
+}
+
+.center_page {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.bottom_section {
+  position:relative;
+  bottom:-600px;
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+  margin-bottom: 5%;
+
+}
+
+.header_container {
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.65vw;
+  font-weight: bold;
+  margin-bottom: 1.0vw;
+}
+
+.hot_courses_title {
+  position:relative;
+  margin-top: 8px;
+  text-align: center;
+  display: inline;
+}
+
+.course_suggestion_button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+  font-family: 'Work Sans', sans-serif;
+  color: #1A1A1A;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  border: 2px solid #DBDADA;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 18px;
+  width:290px;
+  height:290px;
+  vertical-align:top;
+}
+
+.course_suggestion_button:hover {
+  border: 2px solid #93B9D4;
+}
+
+.heading_text {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.9vw;
+  position: relative;
+}
+
+.description_text {
+  position:relative;
+  width: 100%;
+
+}
+
+.university_logo {
+  position:relative;
+  height:3vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  animation: appear 1.5s;
+}
+
+
+#heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.9vw;
+}
+#search.prompt {
+  width: 35vw;
+  }
+
+
+#desktop_search_container {
+  margin-top: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+#desktop_search_container2 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 6px;
+  width: 50%;
+  text-align: center;
+}
+
+#title {
+    /*font-family: 'Inknut Antiqua', serif;*/
+    font-family: 'Work Sans', sans-serif;
+    /*text-shadow: 0.5px 0px 0px;*/
+    font-size: 3.2vw;
+    font-weight: bold;
+    margin-bottom: 1.2vw;
+    margin-top: 5.6%;
+    text-align: center;
+}
+
+.para_text {
+    text-align: justify;
+    /*font-family: 'Exo', sans-serif;*/
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    hyphens: auto;
+    text-justify: newspaper;
+}
+
+@keyframes appear {
+    0% {opacity: 0}
+    35% { opacity: 0 }
+    100% { opacity: 100% }
+}

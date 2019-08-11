@@ -1,15 +1,58 @@
 <% include ./partials/header%>
 
-<h1>
-	Welcome to Course Cache, where you find the course that makes you feel whole.
-</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div>
-	<form action="/school>", method="GET"> 
-		<input type="text" placeholder="school" name="school">
-		<input type="submit">
-	</form>
-	
-</div>
+<head>
+  <title>CourseCache</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+</head>
 
+<body>
+
+  <!-- <img id="splash" src="img/upgrade.png" alt="University background" style="width:100%;"> -->
+  <a href="/"><img src="img/toplogo.png" class="nav_item_logo"></a>
+  <!-- <div class="nav_item_name"> <a href = "/" style="color:#00144D"> CourseCache</a> </div> -->
+  <div class="nav_item"> <a href="/contact" style="color:#00144D">Contact</a> </div>
+  <div class="nav_item"> <a href="/about" style="color:#00144D">About</a> </div>
+
+
+  <div id="banner">
+    <div id="title_container">
+      <div id="title">CourseCache</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="header_container">
+
+    <div class="hot_courses_title">Find courses at</div>
+
+    <form action="/school" , method="GET">
+      <select class="custom-select" id="university" name="university">
+        <option value="brown">Brown University</option>
+        <option value="western">Western University</option>
+      </select> <br>
+
+      <div class="center_page">
+        <button type="button submit" class="custom-button">Continue</button>
+      </div>
+
+    </form>
+
+  </div>
+
+
+
+</body>
+
+<div class="bottom_section"> Thanks for using CourseCache! </div>
+
+</html>
 <% include ./partials/footer%>

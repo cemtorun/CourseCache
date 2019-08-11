@@ -1,17 +1,71 @@
-<h1>
-	Welcome to CourseCache.
-</h1>
-
-<h3>
-	Look at all these courses!
-</h3>
-
-<% courses.forEach(function(course){ %>
-	<div>
-		<h2><%= course.title %></h2>
-		<p><%= course.description.substring(0,100) %>...</p>
-	</div>
-	<a href="/courses/<%= course._id%>">Read More</a>
+<% include ./partials/header%>
 
 
-<%}); %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Search | CourseCache</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/css/results.css">
+  <link rel="shortcut icon" type="image/x-icon" src="img/logo.png">
+</head>
+
+
+<body>
+
+  <a href="/"><img src="/img/toplogo.png" class="nav_item_logo"></a>
+  <!-- <div class="nav_item_name"> <a href = "/" style="color:#00144D"> CourseCache</a> </div> -->
+  <div class="nav_item"> <a href="/contact" style="color:#00144D">Contact</a> </div>
+  <div class="nav_item"> <a href="/about" style="color:#00144D">About</a> </div>
+
+  <br><br>
+	
+  <form form action="/<%=school%>/courses", method="GET">
+	  <div class="main_search">
+		  <div class="ui fluid search" id="desktop_search_container">
+			<div class="ui icon input">
+			  <input id="search" class="prompt" type="text" name="search" 
+					 placeholder="Type your interests (ex. music, computers, theatre)">
+			  <i class="search icon"></i>
+			</div>
+			<button type="button submit" class="custom-button" >Search</button>
+		  </div>
+	  </div>
+  </form>
+	  
+
+</body>
+
+<div class="bottom_section">
+  <div class="header_container">
+    <div class="hot_courses_title">
+    Courses Found:
+    </div>
+  </div>
+  <img src="/img/<%=school%>.png" class = "scroll_logo">
+  <ul name="suggestions_list" id="suggestions_list" style="list-style-type:none;">
+	  
+  	<% courses.forEach(function(course){ %>
+
+		<li>
+			<button type="button" class="course_suggestion_button" >
+		  		<div class="heading_text">
+					<%= course.title %>
+		  		</div>
+		  		<br>
+		  		<div class="description_text">
+					<%= course.description.substring(0,100) %>
+			  	</div>
+				<div class="description_text_read_more">
+					<a href="/courses/<%= course._id%>">Read More</a>
+				</div>
+			</button>
+	  </li>
+	  
+	<%}); %>
+	  
+
+</html>
+<% include ./partials/footer%>

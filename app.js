@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-seedDB();
+// seedDB();
 
 var model = ""; // define as global variable so it can keep it while changing from different gets
 
@@ -30,8 +30,16 @@ app.get("/", function(req, res){
 	res.render("school");
 })
 
+app.get("/about", function(req, res){
+	res.render("about");
+})
+
+app.get("/contact", function(req, res){
+	res.render("contact");
+})
+
 app.get("/:school", function(req, res){
-	var school = req.query.school.toLowerCase();
+	var school = req.query.university
 	app.set("schoolName", school) // use app.get()
 	res.render("search", {school: school});
 });
@@ -45,7 +53,7 @@ app.get("/:school/courses", function(req, res){
 	if(err){
 			console.log(err);
 		} else {
-			res.render("index", {courses: courses}); // represents index.ejs
+			res.render("index", {courses: courses, school: app.get("schoolName")}); // represents index.ejs
 
 		}
 	});
@@ -58,11 +66,10 @@ app.get("/courses/:id", function(req, res){
 		if (err) {
 			console.log(err);
 		} else {
-			res.render("show", {course: selectCourse});
+			res.render("show", {course: selectCourse, school: app.get("schoolName")});
 				}
 	});
 });
-
 
 const port = process.env.PORT || 8080;
 const ip = process.env.IP || "127.0.0.1";
