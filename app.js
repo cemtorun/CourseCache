@@ -45,7 +45,7 @@ app.get("/:school", function(req, res){
 });
 
 // COURSE SEARCH PAGE
-app.get("/:" + app.get("schoolName") + "/courses", function(req, res){
+app.get("/:school/courses", function(req, res){
 	var search = req.query.search.toLowerCase();
 	var school = app.get("schoolName");
 	model = eval(school+"Course");
