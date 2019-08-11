@@ -76,6 +76,7 @@ app.get("/:school/courses/:id", function(req, res){
 	
 	var school = "western";
 	var url = req.url;
+	var id = req.params.id;
 	
 	if (url.includes("brown/courses") || url.includes("university=brown")) {
 		school = "brown";
@@ -83,7 +84,11 @@ app.get("/:school/courses/:id", function(req, res){
 		school = "western";
 	};
 	
-	model.findById(req.params.id, function(err, selectCourse){
+	var x = req.url.split("courses/");
+	id = x[x.length-1];
+	model = eval(school+"Course");
+
+	model.findById(id, function(err, selectCourse){
 		if (err) {
 			console.log(err);
 		} else {
