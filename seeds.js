@@ -5,31 +5,24 @@ var westernCourse = require("./models/western");
 western = [
 	{
 		title: "ACTURSCI 1021B - INTRO TO FINANCIAL SECURE SYS",
-		description: "The nature and cause of financial security and insecurity; public, private and employer programs and products to reduce financial insecurity, including social security, individual insurance and annuities along with employee pensions and benefits."
+		description: "The nature and cause of financial security and insecurity; public, private and employer programs and products to reduce financial insecurity, including social security, individual insurance and annuities along with employee pensions and benefits.",
+		prereq: "",
+		times: "",
+		associations: ""
 	},
 	{
 		title: "ACTURSCI 2053 - MATH FOR FINANCIAL ANALYSIS",
-		description: "Simple and compound interest, annuities, amortization, sinking funds, bonds, bond duration, depreciation, capital budgeting, probability, mortality tables, life annuities, life insurance, net premiums and expenses."
+		description: "Simple and compound interest, annuities, amortization, sinking funds, bonds, bond duration, depreciation, capital budgeting, probability, mortality tables, life annuities, life insurance, net premiums and expenses.",
+		prereq: "",
+		times: "",
+		associations: ""
 	},
 	{
 		title: "CALCULUS 2503B - ADVANCED CALCULUS II",
-		description: "Integral calculus of functions of several variables: multiple integrals; Leibnitz' rule; arc length; surface area; Green's theorem; independence of path; simply connected and multiply connected domains; three dimensional theory and applications; divergence theorem; Stokes' theorem."
-	},
-	{
-		title: "tester1",
-		description: "fun fun fun fun fun fun fun fun fun fun fun"
-	},
-	{
-		title: "tester2",
-		description: "calculus calculus  calculus calculus calculus calculus"
-	},
-	{
-		title: "tester3",
-		description: "calculus calculus calculus fun fun fun fun fun "
-	},
-	{
-		title: "tester4",
-		description: "calculus calculus calculus calculus calculus "
+		description: "Integral calculus of functions of several variables: multiple integrals; Leibnitz' rule; arc length; surface area; Green's theorem; independence of path; simply connected and multiply connected domains; three dimensional theory and applications; divergence theorem; Stokes' theorem.",
+		prereq: "",
+		times: "",
+		associations: ""
 	},
 	{
 		title: "BUSINESS 1220E - INTRODUCTION TO BUSINESS",
@@ -689,7 +682,6 @@ brown = [
 
 Multiple sections - check cab.brown.edu
 */
-
 
 
 function seedDB(){
