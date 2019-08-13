@@ -43,10 +43,11 @@
       <%= course.title %>
     </div>
     <div class="subheading_text" id="course_prof">
-      MWF 10:00-11:20 in Sayles Hall 301
+      <%= course.times %>
     </div>
-    <div class="description_text_header" id="course_description">
-      Prerequisites: None
+	<div class="description_text_header" id="course_description">
+      Prerequisites:
+      <%= course.prereq %>
     </div>
     <div class="description_text_header" id="course_description">
       Course description:
@@ -56,7 +57,7 @@
     </div>
   </div>
   <br><br>
-  <a class="bottom_link" href="/random"> For more courses, try changing or adding keywords! -></a>
+  <a class="bottom_link" href="/school?university=<%=school%>"> For more courses, try changing or adding keywords! -></a>
 </div>
 
 

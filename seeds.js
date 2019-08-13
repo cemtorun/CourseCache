@@ -3,31 +3,174 @@ var brownCourse = require("./models/brown");
 var westernCourse = require("./models/western");
 
 western = [
-	{
-		title: "ACTURSCI 1021B - INTRO TO FINANCIAL SECURE SYS",
-		description: "The nature and cause of financial security and insecurity; public, private and employer programs and products to reduce financial insecurity, including social security, individual insurance and annuities along with employee pensions and benefits.",
-		prereq: "",
-		times: "",
-		associations: ""
-	},
-	{
-		title: "ACTURSCI 2053 - MATH FOR FINANCIAL ANALYSIS",
-		description: "Simple and compound interest, annuities, amortization, sinking funds, bonds, bond duration, depreciation, capital budgeting, probability, mortality tables, life annuities, life insurance, net premiums and expenses.",
-		prereq: "",
-		times: "",
-		associations: ""
-	},
-	{
-		title: "CALCULUS 2503B - ADVANCED CALCULUS II",
-		description: "Integral calculus of functions of several variables: multiple integrals; Leibnitz' rule; arc length; surface area; Green's theorem; independence of path; simply connected and multiply connected domains; three dimensional theory and applications; divergence theorem; Stokes' theorem.",
-		prereq: "",
-		times: "",
-		associations: ""
-	},
-	{
-		title: "BUSINESS 1220E - INTRODUCTION TO BUSINESS",
-		description: "Business Administration 1220E, offered by the Ivey Business School, gives students from all faculties the opportunity to learn business fundamentals in finance, marketing, operations, organizational behavior and general management. The course is delivered using Ivey's renowned case method, which challenges students to learn by doing, within an active class environment of no more than 85 students. Students explore real business issues, make management decisions, defend their position, and take action. This course will be particularly appealing to those students who want a glimpse of Ivey's unique learning experience."
-	}
+    {
+        title: "ACTURSCI 1021B - INTRO TO FINANCIAL SECURE SYS",
+        description:"The nature and cause of financial security and insecurity; public, private and employer programs and products to reduce financial insecurity, including social security, individual insurance and annuities along with employee pensions and benefits.",
+        prereq:"None",
+        times:"",
+        associations:"finance"
+    },
+    {
+        title: "ACTURSCI 2053 - MATH FOR FINANCIAL ANALYSIS",
+        description:"Simple and compound interest, annuities, amortization, sinking funds, bonds, bond duration, depreciation, capital budgeting, probability, mortality tables, life annuities, life insurance, net premiums and expenses",
+        prereq:"Prerequisite(s): 1.0 course or two 0.5 courses at the 1000 level or higher from Applied Mathematics, Calculus, or Mathematics.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 2427B - LONG TERM ACTUARIAL MATH I",
+        description:"Models for the time until death, single life annuity and life insurance present values and their probability distributions; introduction to equivalence principle and premium calculations.",
+        prereq:"A minimum mark of 60% in each of Actuarial Science 2553A/B, either Calculus 2402A/B or Calculus 2502A/B, and Statistical Sciences 2857A/B. Restricted to students enrolled in any Actuarial Science module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 2553A - MATHEMATICS OF FINANCE",
+        description:"Time value of money, accumulation and discount functions, effective rates of interest and discount and present values, as applied to annuities and other financial products, and/or applications including loan repayment schedules and methods.",
+        prereq:"A minimum mark of 60% in Calculus 1501A/B or Applied Mathematics 1413, or Calculus 1301A/B with a minimum mark of 85%.",
+        times:"",
+        associations:"financial"
+    },
+    {
+        title: "ACTURSCI 3424B - SHORT TERM ACTUARIAL MATH I",
+        description:"Insurance loss frequency and severity models; aggregate loss models; risk measures; ruin theory; coverage modifications.",
+        prereq:"A minimum mark of 60% in Statistical Sciences 3657A/B. Restricted to students enrolled in any Actuarial Science module, or those registered in the Honors Specialization module in Statistics or the Honors Specialization in Financial Modelling module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 3429A - LONG TERM ACTUARIAL MATH II",
+        description:"Single life annuity and life insurance loss random variables and their distributions, with applications to the analysis of benefit premiums and reserves; survival model estimates; mortality Improvement and longevity models.",
+        prereq:"A minimum mark of 60% in each of Actuarial Science 2427A/B and Statistical Sciences 2858A/B",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 3431B - LONG TERM ACTUARIAL MATH III",
+        description:"Analysis of probability distributions and present values associated with multiple life models, multiple decrement models and more general multi-state models and applications to life Insurance and other long term coverages including disability Income and other health care coverages.",
+        prereq:"A minimum mark of 60% in each of Actuarial Science 3429A/B and in Statistical Sciences 3657A/B. Restricted to students enrolled in any Actuarial Science module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 4426F - ACTUARIAL PRACTICE I",
+        description:"Introduction to the major areas and issues of actuarial practice, including insurance and annuity product design, pricing and valuation, analysis of the cost of pensions and other employee benefits, asset liability management and professionalism.",
+        prereq:"A minimum mark of 60% in Actuarial Science 2427A/B. Restricted to students who have completed all courses specifically mentioned in the Major in Actuarial Science module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ACTURSCI 4823A - SURVIVAL ANALYSIS",
+        description:"Survival models, nonparametric estimation of the survival function, one and two or more sample hypothesis tests, inference for semiparametric regression models, inference for parametric regression models.",
+        prereq:"A minimum mark of 60% in Statistical Sciences 3858A/B.",
+        times:"",
+        associations:"stats statistics"
+    },
+    {
+        title: "ACTURSCI 4824A - SHORT TERM ACTUARIAL MATH II",
+        description:"Selection, calibration, and validation of parametric models for insurance losses; credibility theory; short term reserving and pricing; reinsurance coverages.",
+        prereq:"A minimum mark of 60% in Statistical Sciences 3858A/B. Restricted to students enrolled in any Actuarial Science module, or those registered in the Honors Specialization module in Statistics or the Honors Specialization in Financial Modelling module.",
+        times:"",
+        associations:"stats statistics finance"
+    },
+    {
+        title: "AMERICAN 2310F - AMERICAN NIGHTMARE",
+        description:"In the increasingly polarized culture of the US, one American’s dream often seems to be another American’s nightmare. This course introduces key ideas in American culture (the American Dream, American Exceptionalism, and American Identity), and examines recent socio-political movements such as #Black Lives Matter, #Me Too, and White Nationalism.",
+        prereq:"None",
+        times:"",
+        associations:"history trump random"
+    },
+    {
+        title: "AMERICAN 3310F - ADVANCED AMERICAN STUDIES",
+        description:"What defines being “American”? How is the American identity constructed, and how and why is it frequently contested? This course employs an interdisciplinary approach to explore the meaning(s) and definition(s) of American identity from multiple viewpoints, and within the context of US history, politics, regions, values, and culture. ",
+        prereq:"1.0 History course at the 2200 level or above OR enrolment in an American Studies module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 2200B - SYSTEMIC ANATOMY",
+        description:"An introduction to the gross anatomical structures and functional connections of the core systems in the human body, including the musculoskeletal, circulatory, respiratory, gastrointestinal, urinary, and reproductive systems. Demonstrations reinforce and extend the lectures.",
+        prereq:"None",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "ANATCELL 2221 - FUNCTIONAL HUMAN ANATOMY",
+        description:"The musculoskeletal, cardiovascular, respiratory, nervous, digestive, excretory, and reproductive systems with emphasis on locomotion and function.",
+        prereq:"Grade 12U Biology (SBI4U) or equivalent.",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "ANATCELL 3200A - FUNCTIONAL HUMAN NEUROANATOMY",
+        description:" An introduction to the central nervous system (CNS). Topics include: the basic structures and functional interconnections between subdivisions of the brain, spinal cord and autonomic nervous systems; CNS development; structures that protect and support the brain; and clinical conditions associated with disruption of the CNS.",
+        prereq:"Registration in third or fourth year. A background in introductory biology is recommended.",
+        times:"",
+        associations:"neuroscience neurology"
+    },
+    {
+        title: "ANATCELL 3309 - MAMMALIAN HISTOLOGY",
+        description:"A detailed study of the cellular and microscopic structure of the various tissues and organ systems of the body, with emphasis on man and other mammals used in medical research. Systems are examined stressing the relations of structure to function.",
+        prereq:"Registration in third or fourth year. Note: This course is recommended for students with a background in introductory biology.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4410A - DISCOVERY-BASED CELL BIO I",
+        description:"This course focuses on advanced cell biological principles and the research pathways that lead to new discoveries in cytoskeletal regulation and cancer cell biology. Students will examine the controversial social/ethical parameters that guide bench-to-bedside experimentation and clinical translation, and will be trained in effective verbal and written scientific presentations.",
+        prereq:"One of Biology 3316A/B or Physiology 3140A with a minimum mark of 70%, or Anatomy and Cell Biology 3309 with a minimum mark of 75%. The preferred prerequisite is one of Biology 3316A/B or Physiology 3140A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4411B - DISCOVERY BASED CELL BIO II",
+        description:"This course focuses on cell signalling diseases, cell specialization, stem cells, cloning and the cell biology of aging. Students will be trained in effective verbal and written scientific presentations.",
+        prereq:"One of Biology 3316A/B or Physiology 3140A with a minimum mark of 70%, or Anatomy and Cell Biology 3309 with a minimum mark of 75%. The preferred prerequisite is one of Biology 3316A/B or Physiology 3140A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4429A - ADVANCED MEDICAL CELL BIOLOGY",
+        description:"The study of the molecules and functions common to mammalian cells, the specializations that make differentiated cells distinct, and the diseases that result from the dysregulation or loss of these cellular functions. This course will cover cellular organization, biogenesis of organelles, cellular growth and differentiation from an experimental perspective.",
+        prereq:"Either Biology 3316A/B or Physiology 3140A, with a minimum mark of 70%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4451F - INTEGRATIVE NEUROSCIENCE",
+        description:"This course focuses on the link between cellular/molecular mechanisms in the brain and behaviour. Topics include fundamental brain functions such as learning and memory, circadian rhythms and sleep, sexual behavior, motivation and reward, addiction, fear and anxiety, pain, stress, and the neurobiology of neurological and neuropsychiatric disorders.",
+        prereq:"One of Neuroscience 2000, Physiology 3120 or Physiology 3140A.",
+        times:"",
+        associations:"neurology"
+    },
+    {
+        title: "ANATCELL 4452B - NEUROBIOLOGY OF MENTAL ILLNESS",
+        description:"An introduction to common mental health disorders focusing on anatomical, clinical, biological, genetic and epidemiological aspects of psychiatric disorders including schizophrenia, addiction, depression, phobias, panic/anxiety, post-traumatic stress disorder, OCD, paranoia, attention-deficit hyperactivity disorder, suicide and autism. In addition to lectures and tutorials, students will debate important ethical issues in psychiatry.",
+        prereq:"a minimum mark of 70% in one of the following: (both Anatomy and Cell Biology 2200A/B and Anatomy and Cell Biology 3200A/B), Neuroscience 2000 or the former Anatomy and Cell Biology 3319.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4461B - TRANSLATIONAL MODELS OF CANCER",
+        description:" This course introduces main cancer types in terms of histology, prognosis, biomarkers, imaging, and sites of metastasis. The role of translational research models in the development of disease-specific diagnostic tools and treatment modalities will be emphasized.",
+        prereq:"a minimum mark of 70% in one of Anatomy and Cell Biology 3309 or Pathology 3500 or the former Pathology 3240A",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANATCELL 4480E - RESEARCH PROJECT & SEMINAR",
+        description:"The course consists of: lectures on laboratory safety, biosafety, use of animals in research, scientific integrity; an independent research project (topic and advisor chosen by consultation between student and faculty); scientific communication.",
+        prereq:"Biochemistry 3381A and Biochemistry 3382A with marks in each of at least 70%; either Biochemistry 3380G or Biology 3326F/G with a mark of at least 70%. Enrolment is limited and available only to students in the Year 4 of either an Honors Specialization in Biochemistry and Cell Biology or an Honors Specialization in Medical Cell Biology.",
+        times:"",
+        associations:""
+    }
+    // {
+    //     title: "",
+    //     description:"",
+    //     prereq:"None",
+    //     times:"",
+    //     associations:""
+    // },
 ]
 
 brown = [
@@ -696,9 +839,9 @@ function seedDB(){
 				westernCourse.create(seed, function(err, data){
 					if(err){
 						console.log(err)
-					} else {
-						console.log("Added a western course!!")
-					}
+					} // else {
+					//	console.log("Added a western course!!")
+					//}
 				});
 			})
 		}	   

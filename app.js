@@ -19,7 +19,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-seedDB();
+// seedDB();
 
 var model = ""; // define as global variable so it can keep it while changing from different gets
 
@@ -40,16 +40,20 @@ app.get("/contact", function(req, res){
 })
 
 app.get("/:school", function(req, res){
-	//console.log(req.url)
 	var school = req.query.university
-	app.set("schoolName", school) // use app.get()
-	res.render("search", {school: school});
+	model = eval(school+"Course");
+	model.aggregate([{ $match: { associations : "random" }}, { $sample: {size: 3}}], function(err, randoms) {
+	if(err){
+			console.log(err);
+		} else {
+			res.render("search", {school: school, randoms: randoms}); // represents index.ejs
+		}
+	});
 });
 
 // COURSE SEARCH PAGE
 app.get("/:school/courses", function(req, res){
 	var search = req.query.search.toLowerCase();
-	//var school = app.get("schoolName");
 	var school = "western";
 	var url = req.url;
 	

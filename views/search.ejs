@@ -73,33 +73,25 @@
     Explore something new at <span id="upper"><%=school%></span> University
     </div>
   </div>
-  <button type="button" class="course_suggestion_button" >
-    <div class="heading_text">
-      ASTRO 0120: The Cosmos
-    </div>
-    <br>
-    <div class="description_text">
-      This course covers everything from the Big Bang to the present day, exploring the facts and figures behind moons, stars, and galaxies.
-    </div>
-  </button>
-  <button type="button" class="course_suggestion_button" >
-    <div class="heading_text">
-      ENGLISH 1000: The Anatomy of a Tragedy
-    </div>
-    <br>
-    <div class="description_text">
-      What makes a story tragic? This course covers the elements of storytelling and plot that build a world of loss, sorrow, and suffering.
-    </div>
-  </button>
-  <button type="button" class="course_suggestion_button" >
-    <div class="heading_text">
-      TAPS 0520: The Realism of GoT
-    </div>
-    <br>
-    <div class="description_text">
-      Theatre is often about making an impossible situation feel real nonetheless. This course observes Game of Thrones from this context.
-    </div>
-  </button>
+
+  <% randoms.forEach(function(random){ %>
+	  <button type="button" class="course_suggestion_button" >
+		  
+		<div class="heading_text">
+		  <%= random.title %>
+		</div>
+		<br>
+		<div class="description_text">
+		  <%= random.description.substring(0,100) %>...
+		</div>
+		<br>
+		<div>
+		<a href="/<%=school%>/courses/<%=random._id %>">Read more</a>	
+		</div>
+		
+	  </button>
+  <%}); %>
+	
   <br><br>
   <a href="/random"> See more fun and random courses -></a>
 </div>
