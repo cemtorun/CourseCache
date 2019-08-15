@@ -113,12 +113,19 @@ body {
 
 .bottom_section {
   position:relative;
-  bottom:-600px;
-  margin: 0 auto;
+  bottom:-80vh;
   text-align: center;
   width:100%;
   margin-bottom: 5%;
 
+}
+
+.empty {
+  color: white;
+  position:relative;
+  bottom:-1vh;
+  text-align: center;
+  width:100%;
 }
 
 .header_container {

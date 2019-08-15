@@ -16,6 +16,8 @@ body {
     background-size: cover;
 }
 
+
+
 form {
 	display: inline;
 }
@@ -60,6 +62,11 @@ form {
   vertical-align: middle;
   font-size: 1.3vw;
   max-width:13.4vw;
+}
+
+.bottom_logo {
+  vertical-align: middle;
+  max-width:8.4vw;
 }
 
 .custom-select {
@@ -114,13 +121,24 @@ form {
 }
 
 .bottom_section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position:relative;
-  bottom:-600px;
-  margin: 0 auto;
+  bottom:-80vh;
+  text-align: center;
+  width:80%;
+  margin-bottom: 5%;
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 1.3vw;
+  line-height: 140%;
+}
+
+.empty {
+  color: white;
+  position:relative;
   text-align: center;
   width:100%;
-  margin-bottom: 5%;
-
 }
 
 .header_container {

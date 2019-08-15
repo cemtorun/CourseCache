@@ -19,7 +19,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-// seedDB();
+//seedDB();
 
 var model = ""; // define as global variable so it can keep it while changing from different gets
 
@@ -40,7 +40,14 @@ app.get("/contact", function(req, res){
 })
 
 app.get("/:school", function(req, res){
-	var school = req.query.university
+	var school = "western";
+	var url = req.url;
+	
+	if (url.includes("brown/courses") || url.includes("university=brown")) {
+		school = "brown";
+	} else if (url.includes("western/courses") || url.includes("university=western")) {
+		school = "western";
+	};
 	model = eval(school+"Course");
 	model.aggregate([{ $match: { associations : "random" }}, { $sample: {size: 3}}], function(err, randoms) {
 	if(err){
@@ -54,6 +61,8 @@ app.get("/:school", function(req, res){
 // COURSE SEARCH PAGE
 app.get("/:school/courses", function(req, res){
 	var search = req.query.search.toLowerCase();
+	var temp = search.split(" ");
+	var finalSearch = '"' + temp.join('" "') + '"'
 	var school = "western";
 	var url = req.url;
 	
@@ -64,7 +73,8 @@ app.get("/:school/courses", function(req, res){
 	};
 	
 	model = eval(school+"Course");
-	model.find({ $text: { $search: search } }, function(err, courses) {
+	
+	model.find({ $text: { $search: finalSearch } }, function(err, courses) {
 	if(err){
 			console.log(err);
 		} else {

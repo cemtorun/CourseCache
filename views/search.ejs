@@ -75,7 +75,7 @@
   </div>
 
   <% randoms.forEach(function(random){ %>
-	  <button type="button" class="course_suggestion_button" >
+	  <button type="button" class="course_suggestion_button" onclick="location.href='/<%=school%>/courses/<%=random._id %>'">
 		  
 		<div class="heading_text">
 		  <%= random.title %>
@@ -93,7 +93,8 @@
   <%}); %>
 	
   <br><br>
-  <a href="/random"> See more fun and random courses -></a>
+  <a href="/<%=school%>/courses?search=random"> See more fun and random courses -></a>
+  <div class="empty"> . </div>	
 </div>
 
 

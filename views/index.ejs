@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="/css/results.css">
-  <link rel="shortcut icon" type="image/x-icon" src="img/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/logo.png">
 </head>
 
 
@@ -41,7 +41,11 @@
 <div class="bottom_section">
   <div class="header_container">
     <div class="hot_courses_title">
-    Courses Found:
+	<% if (courses.length == 0) { %>
+			No courses found! Try broadening your search or trying some different keywords!
+		<% } else { %>
+			Courses Found:
+		<% }; %>
     </div>
   </div>
   <img src="/img/<%=school%>.png" class = "scroll_logo">
@@ -50,7 +54,7 @@
   	<% courses.forEach(function(course){ %>
 
 		<li>
-			<button type="button" class="course_suggestion_button" >
+			<button type="button" class="course_suggestion_button" onclick="location.href='/<%=school%>/courses/<%= course._id%>'">
 		  		<div class="heading_text">
 					<%= course.title %>
 		  		</div>

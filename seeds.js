@@ -158,12 +158,1524 @@ western = [
         associations:""
     },
     {
-        title: "ANATCELL 4480E - RESEARCH PROJECT & SEMINAR",
-        description:"The course consists of: lectures on laboratory safety, biosafety, use of animals in research, scientific integrity; an independent research project (topic and advisor chosen by consultation between student and faculty); scientific communication.",
-        prereq:"Biochemistry 3381A and Biochemistry 3382A with marks in each of at least 70%; either Biochemistry 3380G or Biology 3326F/G with a mark of at least 70%. Enrolment is limited and available only to students in the Year 4 of either an Honors Specialization in Biochemistry and Cell Biology or an Honors Specialization in Medical Cell Biology.",
+        title: "ANTHRO 1020 - MANY WAYS OF BEING HUMAN",
+        description:"An introduction to anthropology (the study of human beings, past and present) co-taught by specialists in biological anthropology, archaeology, linguistic anthropology, and sociocultural anthropology. Students will explore anthropological approaches to and findings concerning: human evolution; variation and adaptation; diverse forms of social, political, and economic organization; culture; ritual; language; communication; identity; gender; health; social inequality; and globalization.",
+        prereq:"None",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "ANTHRO 1021A - INTRO SOCIOCUL & LINGUIST ANTH",
+        description:"An introductory course teaching basic concepts in the study of socio-cultural and linguistic practices worldwide. It underscores shared human experiences as well as our rich diversity. Topics include, changing socio-cultural and economic institutions, political and religious systems, and the role of language in the workings of power, indexicality and identity.",
+        prereq:"None",
         times:"",
         associations:""
-    }
+    },
+    {
+        title: "ANTHRO 1022B - INTRO BIOL ANTHRO & ARCHA",
+        description:"An introduction to aspects of Biological Anthropology and Archaeology which help us to understand the place of humankind in nature. Topics to be covered include heredity, human evolution and variability, archaeological method, the development of culture, the domestication of plants and animals, and the rise of civilization and the state.",
+        prereq:"None",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "ANTHRO 1025F - INTRO SOCIOCUL & LINGUIST ANTH",
+        description:"An introductory course teaching basic concepts in the study of socio-cultural and linguistic practices worldwide. It underscores shared human experiences as well as our rich diversity. Topics include, changing socio-cultural and economic institutions, political and religious systems, and the role of language in the workings of power, indexicality and identity.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 1025G - INTRO SOCIOCUL & LINGUIST ANTH",
+        description:"An introductory course teaching basic concepts in the study of socio-cultural and linguistic practices worldwide. It underscores shared human experiences as well as our rich diversity. Topics include, changing socio-cultural and economic institutions, political and religious systems, and the role of language in the workings of power, indexicality and identity.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 1026F - INTRO BIOL ANTHRO & ARCHA",
+        description:"An introduction to aspects of biological anthropology and archaeology which help us to understand the place of humankind in nature. Topics to be covered include heredity, human evolution and variability, archaeological method, the development of culture, the domestication of plants and animals, and the rise of civilization and the state.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 1026G - INTRO BIOL ANTHRO & ARCHA",
+        description:"An introduction to aspects of biological anthropology and archaeology which help us to understand the place of humankind in nature. Topics to be covered include heredity, human evolution and variability, archaeological method, the development of culture, the domestication of plants and animals, and the rise of civilization and the state.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 1027A - INTRO TO LINGUISTICS",
+        description:"Introduction to basic concepts and methods of modern linguistics. Topics include articulatory and acoustic phonetics, phonology, morphology, syntax and semantics. This course is a prerequisite for subsequent linguistics courses in the Department of Anthropology and/or the Linguistics program.",
+        prereq:"None",
+        times:"",
+        associations:"language"
+    },
+    {
+        title: "ANTHRO 1027B - INTRO TO LINGUISTICS",
+        description:"Introduction to basic concepts and methods of modern linguistics. Topics include articulatory and acoustic phonetics, phonology, morphology, syntax and semantics. This course is a prerequisite for subsequent linguistics courses in the Department of Anthropology and/or the Linguistics program.",
+        prereq:"None",
+        times:"",
+        associations:"language"
+    },
+    {
+        title: "ANTHRO 2100 - ARCH & WORLD PREHISTORY",
+        description:"The field of archaeology, with emphasis on the major discoveries of the discipline. Topics include the evolution of humans, their spread throughout the world, the origins of agriculture, urbanization, and the development of early civilizations. Major archaeological sites like Olduvai Gorge, Stonehenge, Giza, Ur and Teotihuacan will be discussed.",
+        prereq:"None",
+        times:"",
+        associations:"history"
+    },
+    {
+        title: "ANTHRO 2101B - GREAT ARCHAEOLOGICAL SITES",
+        description:"An examination of spectacular archaeological sites around the world, including many on the UNESCO World Heritage List. The course covers sites of complex hunter-gatherers and farmers, and early states and empires in Mesopotamia, Egypt, the Aegean, Asia and Mesoamerica, the Andes and the Classical World.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2151A - LANGUAGE, GENDER AND SEXUALITY",
+        description:"This course explores the relationship between language and sex/gender systems from a critical linguistic anthropology perspective. Areas investigated include: language and gender stereotypes; gender variation in language usage; power and women's status; and male vs female communicative styles in different contexts.",
+        prereq:"Any first year Arts and Humanities or Social Science course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2212G - CULTURES OF THE PACIFIC",
+        description:"The cultures of Polynesia, Micronesia and Melanesia with an emphasis on indigenous social structures. Other topics include ecology and economy, male-female relations, ritual and cosmology, hierarchical and egalitarian political systems, Pacific history, and contemporary political and economic issues.",
+        prereq:"Any Arts and Humanities or Social Science 0.5 or 1.0 Essay course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2216F - CULTURES OF LATIN AMERICA",
+        description:"The cultural history of Latin American societies. Topics include the historical formation of indigenous communities, and a wide variety of contemporary social problems in Latin America.",
+        prereq:"None",
+        times:"",
+        associations:"Any Arts and Humanities or Social Science 0.5 or 1.0 Essay course."
+    },
+    {
+        title: "ANTHRO 2222F - DEBATES IN SOCIOCULT ANTHRO",
+        description:" Sociocultural Anthropologists commonly debate the foundations of their discipline. What are the goals of Sociocultural Anthropology? How should we be doing it, and why? For whom do we do it? This course contextualizes such key debates focusing especially on what they tell us about the discipline's past, present, and future.",
+        prereq:"Anthropology 1020 (formerly Anthropology 1020E) or Anthropology 1025F/G or Anthropology 1021A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2226B - BIOLOGICAL ANTHROPOLOGY",
+        description:"A survey of the major areas of biological anthropology, including heredity, paleo-anthropology, human adaptability and variability, and growth and development.",
+        prereq:"Anthropology 1020 (formerly Anthropology 1020E), or one of Anthropology 1025F/G or Anthropology 1021A/B and one of Anthropology 1026F/G or Anthropology 1022A/B.",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "ANTHRO 2229F - PRINCIPLES OF ARCHAEOLOGY",
+        description:"This course provides an overview of the goals, theory and analytical methods of archaeology as practised by anthropologists. The course serves to provide a basic appreciation of how one is able to go from the material remains of past peoples to statements about the nature of their cultural systems, and also, how archaeologists are uniquely poised to address certain general questions of concern to all anthropologists.",
+        prereq:"Anthropology 1020 (formerly Anthropology 1020E), or one of Anthropology 1025F/G or Anthropology 1021A/B and one of Anthropology 1026F/G or Anthropology 1022A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2233F - ONTARIO ARCHAEOLOGY",
+        description:"The prehistoric societies of Ontario and surrounding areas. Topics include the entry of humans into the New World and their arrival in Ontario; development of agriculture; appearance of historic period societies such as the Huron, Neutral and Ojibwa; impact of European settlement and economic systems on native societies.",
+        prereq:"Anthropology 1020 (formerly Anthropology 1020E), or one of Anthropology 1025F/G or Anthropology 1021A/B and one of Anthropology 1026F/G or Anthropology 1022A/B, or Anthropology 2100, or First Nations Studies 1020E.",
+        times:"",
+        associations:"canada"
+    },
+    {
+        title: "ANTHRO 2236B - GROWTH, DEVELOPMENT AND AGING",
+        description:"This course examines the growth, development and aging of the human body using evolutionary, comparative and cross-cultural approaches. We will draw on practical methods from bioarchaeology and forensics, theoretical perspectives from biological evolution and evolutionary ecology, cultural aspects from cultural anthropology, and clinical perspectives from modern medical studies.",
+        prereq:"Any one of the following: Anthropology 1020 (formerly Anthropology 1020E), Anthropology 1022A/B, Anthropology 1026F/G, Sociology 1020, Sociology 1021E, Biology 1225, Biology 1290B, Health Sciences 1001A/B and Health Sciences 1002A/B.",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "ANTHRO 2237A - HUMAN ADAPTABILITY & RESILIENC",
+        description:"Humans are a remarkably adaptable species who have colonized almost all regions of our planet. This course examines the mechanisms that underlie our adaptability, including human biological diversity, the ways we adapt to environmental stress, and the resilience of our species in response to rapid environmental and cultural change.",
+        prereq:"Completion of first year, including at least one course in Social Science, Science, or Health Sciences. Recommended: Anthropology 1020, Anthropology 1021A/B, Anthropology 1022A/B, Anthropology 1025F/G, Anthropology 1026F/G, Geography 1100, Geography 1300A/B, Geography 1400F/G, Geography 1500F/G, Biology 1225, Biology 1290B, Health Sciences 1001A/B or Health Sciences 1002A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2238B - READING LIFE & DEATH",
+        description:" While alive our bodily tissues store a tremendous amount of information. These clues can be used to tell a lot about a person’s life and death. This information is explored in three contexts: Living Individuals, Recently Deceased Individuals (focus on forensic applications), and Older Deceased Individuals (focus on archaeological applications).",
+        prereq:"Any first year Social Science, Health Sciences, or Science course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2245G - APPROACHES TO LANGUAGE",
+        description:"Introduces theories and methods of linguistic anthropology. Topics include: the relationship between language and thought, connections between linguistic practices and social categories, the role of language in cultural practices",
+        prereq:"Anthropology 1020 (formerly Anthropology 1020E), or Anthropology 1021A/B, or Anthropology 1025F/G, or Anthropology 1027A/B, or Linguistics 2288A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2250F - VERBAL ART, PERF & SPEECH PLAY",
+        description:"This course examines the artful and playful use of spoken language in relation to social organization and cultural practices. Topics include: structures and patterns in speech play, participation of the audience in the performance, evaluation of competence, issues of authenticity and identity, and the tension between tradition and innovation.",
+        prereq:"One of Anthropology 1020 (formerly Anthropology 1020E), Anthropology 1021A/B, Anthropology 1025F/G, Anthropology 1027A/B, Linguistics 2288A/B or permission from the instructor.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2251F - LANGUAGE, GENDER AND SEXUALITY",
+        description:"This course explores the relationship between language and sex/gender systems from a critical linguistic anthropological perspective. Areas investigated include: language and gender stereotypes; gender variation in language usage; power and women's status; and male vs female communicative styles in different contexts. An essay on a relevant topic is required.",
+        prereq:"One of Anthropology 1020 (formerly Anthropology 1020E), Anthropology 1021A/B, Anthropology 1025F/G, Anthropology 1027A/B, Women's Studies 1020E, Women's Studies 1021F/G, or Linguistics 2288A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2264G - ISSUES IN PRIMATE CONSERVATION",
+        description:"A consideration of conservation issues confronting primatologists, including: conservation assessment, variables for understanding the conservation biology of nonhuman primate populations, biogeographic patterns contributing to declining primate populations, strategies in primate conservation, and how ethnoprimatology - the study of interactions between humans and nonhuman primate populations - can be useful in primate conservation.",
+        prereq:"Any Arts and Humanities or Social Science 0.5 or 1.0 Essay course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2265F - PRIMATE BEHAVIOR",
+        description:"This course considers the behavioral patterns, and diversity, exhibited across species of the Order Primates. Critical examination of theoretical models developed to explain primate behavior is emphasized. Topics covered, using species comparisons, include socioecological contexts of primate behavior, reproduction, growth and development, kinship and dominance, communication and cognition.",
+        prereq:"Any Arts and Humanities or Social Science 0.5 or 1.0 Essay course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2267B - ANTHROPOLOGY OF ZOOS",
+        description:"Modern zoos characterize themselves as key players in conserving endangered species. But, is this message getting across to zoo visitors? This course utilizes anthropological and interdisciplinary approaches to assess key aspects of zoo-based conservation action, and the extent to which zoos can generate public engagement in 21st century conservation concerns.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2272F - ANTHROPOLOGY OF TOURISM",
+        description:"This course examines various aspects of tourism from an anthropological point of view. Topics will include the cultural effects of tourism on both hosts and guests, on the political and economic issues involved in tourism, on the connection between tourism and environmental concerns, and on conflict over local resources.",
+        prereq:"At least a 0.5 Essay course in any faculty.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2272G - ANTHROPOLOGY OF TOURISM",
+        description:"This course examines various aspects of tourism from an anthropological point of view. Topics will include the cultural effects of tourism on both hosts and guests, on the political and economic issues involved in tourism, on the connection between tourism and environmental concerns, and on conflict over local resources.",
+        prereq:"At least a 0.5 Essay course in any faculty.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2277F - ANTHROPOLOGY OF DISASTER",
+        description:"This course explores anthropological approaches to the study of crisis, disaster, and emergency. We will look at theoretical frameworks for understanding disaster and apply them to case studies of disasters ranging from fires and hurricane to earthquakes and humanitarian emergencies.",
+        prereq:"At least 0.5 essay course in Arts and Humanities or Social Science.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 2285G - ANTHRO OF FASHION",
+        description:"This course focuses on the anthropological study of clothing and fashion. It will critically examine the meaning of clothing and the role it plays in the formation of identities and the negotiation of power inequalities. It will further explore the social and political-economic processes that influence clothing production and consumption.",
+        prereq:"Any Arts and Humanities or Social Science 0.5 or 1.0 Essay course.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3223F - FIELDWORK SOCIOCULTURAL ANTHRO",
+        description:"This course will explore the methodology of fieldwork in Sociocultural Anthropology. The emphasis will be less on reading about anthropology and more on actually doing what anthropologists do. Assignments will focus on participant observation and include talking with people, observing what they are doing and taking part in their activities.",
+        prereq:"Registration in Year 3 or 4 in any Anthropology module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3243G - APPLIED LINGUISTICS",
+        description:"A survey of practical applications of linguistic theory. Topics may include discussion of the relevance of linguistic research to language teaching and learning, communication disorders, language policy development and language revitalization, translation and intercultural communication, media, law, business, communication technologies, and social justice.",
+        prereq:"Enrolment in third or fourth year, and Linguistics 2247A/B or Linguistics 2248A/B.",
+        times:"",
+        associations:"language"
+    },
+    {
+        title: "ANTHRO 3307A - FIELD METHODS IN ARCHAEOLOGY",
+        description:"This course provides a practical introduction to field methods and preliminary laboratory techniques of archaeology. Practical training will be given at a field camp to be held at an archaeological site near London.",
+        prereq:"Anthropology 2229F/G and registration in Anthropology module Year 3 or 4. Application required.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3308G - ARCHAEOLOGY: THEORY & PRACTICE",
+        description:"This course examines contemporary theoretical frameworks in archaeology and explores how they shape and are shaped by current issues, the development of new methods, and archaeological practice around the globe.",
+        prereq:"Anthropology 2229F/G and registration in Year 3 or 4 in any Anthropology module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3310B - ZOOARCHAELOGY",
+        description:"An introduction to the range of information about past human groups gleaned from the animal remains. Lectures will cover various topics in zooarchaeological theory and practice. Labs will teach the basics of skeletal identification for fish, birds and mammals, and will provide experience in the identification of fragmentary archaeological remains.",
+        prereq:"Anthropology 2229F/G.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3325F - READINGS IN ANTHROPOLOGY",
+        description:" Individual reading and research of current interest in Anthropology. Students are responsible for making arrangements with an Anthropology faculty member. An application must be completed with approval from the Instructor and the Chair. Applications are available on the Anthropology website.",
+        prereq:"Registration in third year in any program. Application required.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3325G - READINGS IN ANTHROPOLOGY",
+        description:"Individual reading and research of current interest in Anthropology. Students are responsible for making arrangements with an Anthropology faculty member. An application must be completed with approval from the Instructor and the Chair. Applications are available on the Anthropology website.",
+        prereq:"Registration in third year in any program. Application required.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3334F - PRIMATE & HUMAN PALEONTOL",
+        description:"This course will combine general principles of vertebrate paleontology and evolutionary biology to examine the fossil evidence for primate and human evolution. Important events, such as primate and hominid origins will be investigated in detail, emphasizing the cross-disciplinary nature of this field of study.",
+        prereq:"Anthropology 2226A/B and registration in year 3 or 4 in any module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3338F - HUMAN SKELETAL BIOLOGY",
+        description:"An exploration of the role that skeletal material plays in providing anthropological information. Emphasis will be placed on the analytical techniques used in osteology and odontology for: measuring biological adaptability in archaeological populations; creating individual biographies; the reconstruction of cultural activities.",
+        prereq:"Anthropology 2226A/B and registration in year 3 or 4 in any module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3350F - SOCIETY AND CULTURE I",
+        description:"This course explores where anthropology came from, what influenced its early questions, and how those questions evolved over time, through an examination of some classic anthropological work on society and culture.",
+        prereq:"Registration in third or fourth year in any Anthropology module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3351G - SOCIETY AND CULTURE II",
+        description:"This course examines the various principles through which societies are organized, by examining the construction of social formations and social identities over time in contexts of differential power.",
+        prereq:"Anthropology 3350F and third or fourth year standing in any anthropology module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 3354G - DISABILITY AND HEALTH",
+        description:"This course will provide students with a foundation to think critically about occupying health and disability and to use an anthropological lens to provide students with skills to critically evaluate health- occupation- and disability-related experiences both locally and globally.",
+        prereq:"Registration in third or fourth year in any Anthropology module or Disability Studies module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4400E - ANTHROPOLOGICAL THOUGHT",
+        description:"Exploration of current anthropological debates and contemporary theoretical frameworks as they may be used in the analysis of anthropological problems and thought.",
+        prereq:"Anthropology 3350F (or the former Anthropology 3301E), and registration in Year 4 in any module.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4409G - ANTHRO OF ETHICS AND MORALITY",
+        description:"Through an anthropological approach to the study of ethics and morality, the course explores how value and meaning are socially, culturally, and historically produced. It covers a range of ethnographic case studies that explore how ethical and moral values operate in various contexts, from everyday talk to international humanitarian intervention.",
+        prereq:"Fourth-year in an Anthropology module and by application (see Department website).",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4412G - LANGUAGE AND POWER",
+        description:"This course examines linkages between linguistic practices and relations of power, drawing primarily on tools and methodologies of Linguistic Anthropology and Discourse Analysis. Topics such as racism, disability, migration will be addressed.",
+        prereq:"Fourth-year in an Anthropology module and by application (see Department website).",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4422G - ACTIVITY & ENERGETICS IN PAST",
+        description:"This course explores the interaction between habitual activity and energetics throughout human evolution, prehistory, and the recent past. Particular focus will be placed on the energetic biology of species, and how it has changed throughout human evolution in relation to habitual activity and changing resources use.",
+        prereq:"Registration in fourth year in Anthropology and permission of the instructor.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4424F - ANALYTICAL TECHNIQ, ARCH & BIO",
+        description:"This course explores how analytical techniques are applied in archaeology and bioanthropology. The focus is not on any specific analytical technique per se. Rather, the coursefocuses on the theoretical context and paradigm within which techniques are applied and results interpreted and the broad anthropological questions that they can address.",
+        prereq:"Registration in fourth year in Anthropology and permission of the instructor.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ANTHRO 4429G - PRINCIPLES APPLED ARCHAEOLOGY",
+        description:"This course will examine the principles and concerns that are integral to the practice of applied archaeology in North America and the role of applied archaeology in heritage management. The course will review legislation and professional practices that govern applied archaeologists who undertake Cultural Resource Management (CRM).",
+        prereq:"Registration in fourth year in Anthropology. Application Required.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 1201B - CALC & PROBABILITY W BIO APPS",
+        description:" Applications of integration, integration using mathematical software packages. Scaling and allometry. Basic probability theory. Fundamentals of linear algebra: vectors, matrices, matrix algebra. Difference and differential equations. Each topic will be illustrated by examples and applications from the biological sciences, such as population growth, predator-prey dynamics, age-structured populations.",
+        prereq:"One or more of Calculus 1000A/B, Calculus 1500A/B or Mathematics 1225A/B",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "APPLMATH 1411A - LNR ALG NUM ANALYSIS FOR ENG",
+        description:"Matrix operations, systems of linear equations, linear spaces and transformations, determinants, eigenvalues and eigenvectors, applications of interest to Engineers including diagonalization of matrices, quadratic forms, orthogonal transformations; introduction to MATLAB with applications from linear algebra. Restricted to students in the Faculty of Engineering.",
+        prereq:"Ontario Secondary School MHF4U or MCV4U, or Mathematics 0110A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 1411B - LNR ALG NUM ANALYSIS FOR ENG",
+        description:"Matrix operations, systems of linear equations, linear spaces and transformations, determinants, eigenvalues and eigenvectors, applications of interest to Engineers including diagonalization of matrices, quadratic forms, orthogonal transformations; introduction to MATLAB with applications from linear algebra. Restricted to students in the Faculty of Engineering.",
+        prereq:"Ontario Secondary School MHF4U or MCV4U, or Mathematics 0110A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 1413 - APP MATH FOR ENGRS I",
+        description:" Limits, continuity, differentiation of functions of one variable with applications, extreme values, integration, the fundamental theorem of calculus, methods and applications of integration to areas, volumes and engineering applications. Sequences and series, convergence, power series. Vector functions, partial differential calculus, gradients, directional derivatives and applications. Restricted to students in the Faculty of Engineering.",
+        prereq:"One or more of Ontario Secondary School MHF4U, MCV4U, or Mathematics 0110A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2270A - APPLIED MATH FOR ENGINEER II",
+        description:"Topics include first order ODE's of various types, higher order ODE's and methods of solving them, initial and boundary value problems, applications to mass-spring systems and electrical RLC circuits, Laplace transforms and their use for solving differential equations, systems of linear ODE's, orthogonal functions and Fourier.",
+        prereq:"Applied Mathematics 1411A/B and Applied Mathematics 1413.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2270B - APPLIED MATH FOR ENGINEER II",
+        description:"Topics include first order ODE's of various types, higher order ODE's and methods of solving them, initial and boundary value problems, applications to mass-spring systems and electrical RLC circuits, Laplace transforms and their use for solving differential equations, systems of linear ODE's, orthogonal functions and Fourier.",
+        prereq:"Applied Mathematics 1411A/B and Applied Mathematics 1413.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2276B - APP MATH ELEC & MEC ENG III",
+        description:"Topics covered include a review of orthogonal expansions of functions and Fourier series and transforms, multiple integration with methods of evaluation in different systems of coordinates, vector fields, line integrals, surface and flux integrals, the Green, Gauss and Stokes theorems with applications.",
+        prereq:"Applied Mathematics 2270A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2277B - APPL MATH CHEM & CIVIL ENG III",
+        description:"Topics covered include a review of orthogonal expansions of functions and Fourier series, partial differential equations and Fourier series solutions, boundary value problems, the wave, diffusion and Laplace equations, multiple integration with methods of evaluation in different systems of coordinates, vector fields, line integrals, surface and flux integrals, the Green, Gauss and Stokes theorems with applications.",
+        prereq:"Applied Mathematics 2270A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2402A - ORDINARY DIFF EQUATIONS",
+        description:"Introduction to first order differential equations, linear second and higher order differential equations with applications, complex numbers including Euler's formula, series solutions, Bessel and Legendre equations, existence and uniqueness, introduction to systems of linear differential equations.",
+        prereq:"A minimum mark of 60% in Calculus 1301A/B, or a minimum mark of 55% in Calculus 1501A/B or Applied Mathematics 1413. Pre-or Corequisite(s): Mathematics 1600A/B or the former Linear Algebra 1600A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2811B - LINEAR ALGEBRA II",
+        description:"Vector space examples. Inner products, orthogonal sets including Legendre polynomials, trigonometric functions, wavelets. Projections, least squares, normal equations, Fourier approximations. Eigenvalue problems, diagonalization, defective matrices. Coupled difference and differential equations; applications such as predator-prey, business competition, coupled oscillators. Singular value decomposition, image approximations. Linear transformations, graphics.",
+        prereq:"Applied Mathematics 1413 or Calculus 1301A/B or Calculus 1501A/B and a minimum mark of 60% in Mathematics 1600A/B or the former Linear Algebra 1600A/B, or Applied Mathematics 1411A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 2814G - NUMERICAL ANALYSIS",
+        description:"Introduction to numerical analysis; polynomial interpolation, numerical integration, matrix computations, linear systems, nonlinear equations and optimization, the initial value problem. Assignments using a computer and the software package, Matlab, are an important component of this course.",
+        prereq:"A minimum mark of 55% in Mathematics 1600A/B. Pre-or Corequisite(s): Calculus 2302A/B, Calculus 2402A/B or Calculus 2502A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3413A - ADV APPL MATH MECH ENGINEERING",
+        description:"Topics include: introduction to complex analysis; complex integration; Fourier series, integrals and transforms; boundary value problems; separation of variables; transform methods of solution for PDE's; applications to mechanical engineering. ",
+        prereq:"Applied Mathematics 2270A/B and Applied Mathematics 2276A/B, or the former Applied Mathematics 2413.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3415A - ADV APPL MATH ELEC ENGINEERING",
+        description:"Topics Include: introduction to complex analysis; complex integration; boundary value problems; separation of variables; Fourier series and transform methods of solution for PDE's, applications to electrical engineering.",
+        prereq:"Applied Mathematics 2270A/B and 2276A/B, or the former Applied Mathematics 2415.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3611F - INTRO OBJECT ORIENTED SCIEN",
+        description:"Basic introduction to C++ and the concept of object-oriented programming techniques. Applications to scientific computation applied to numerical methods, linear algebra and differential equations. Grade is largely based on projects and presentations.",
+        prereq:"Calculus 1301A/B, Calculus 1501A/B, Applied Mathematics 1201A/B or Applied Mathematics 1413. Pre-or Corequisite(s): Applied Mathematics 2402A, or Applied Mathematics 2811B, or Applied Mathematics 2814F/G, or Statistical Sciences 2857A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3811A - COMPLEX VARIABLES WITH APPLCT",
+        description:"Functions of a complex variable, analytic functions, integration in the complex plane, Taylor and Laurent series, analytic continuation, Cauchy's theorem, evaluation of integrals using residue theory, applications to Laplace transforms, conformal mapping and its applications",
+        prereq:"Calculus 2303A/B or Calculus 2503A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3813B - NONLINEAR ORDINARY DIFF EQS",
+        description:"Existence and uniqueness of solutions, phase space, singular points, stability, periodic attractors, Poincaré-Bendixson theorem, examples from physics, biology and engineering, frequency (phase) locking, parametric resonance, Floquet theory, stability of periodic solutions, strange attractors and chaos, Lyapunov exponents, chaos in nature, fractals.",
+        prereq:"Applied Mathematics 2402A or the former Differential Equations 2402A; Calculus 2303A/B or Calculus 2503A/B and Mathematics 1600A/B or the former Linear Algebra 1600A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3815A - PARTIAL DIFFERENTL EQUATIONS I",
+        description:"Boundary value problems for Laplace, heat, and wave equations; derivation of equations; separation of variables; Fourier series; Sturm-Liouville Theory; eigenfunction expansions; cylindrical and spherical problems; Legendre and Bessel functions; spherical harmonics; Fourier and Laplace transforms.",
+        prereq:"(i) Mathematics 1600A/B; Applied Mathematics 2402A; Calculus 2303A/B or Calculus 2503A/B; or (ii) Calculus 2402A/B and Statistical Sciences 2503A/B. In each course a minimum mark of 60% is required.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 3911G - MODELLING AND SIMULATION",
+        description:"Basic principles of modelling and simulation, description and treatment of deterministic and random processes, computational methods and applications with emphasis on the use of computers. The course includes a major project.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 4615F - INTRO TO APP COMPUTER ALGEBRA",
+        description:"Strengths and limitations of computer algebra systems (CAS); complexity of exact computations versus possible instability of numerical computations; selecta from Groebner bases, resultants, fractional derivatives, Risch integration algorithm, special functions including the Lambert W function. The emphasis is on preparing the student to use CAS in mathematics, science, and engineering.",
+        prereq:"Applied Mathematics 2814F/G or the former Applied Mathematics 2413, the former Applied Mathematics 2415",
+        times:"",
+        associations:""
+    },
+    {
+        title: "APPLMATH 4617B - NUMERICAL SOLUTION, P.D.E.",
+        description:"Finite difference methods, stability analysis for time-dependent problems. ",
+        prereq:"Applied Mathematics 2814F/G or the former Applied Mathematics 2413. Pre-or Corequisite(s): Applied Mathematics 3413A/B, Applied Mathematics 3415A/B or Applied Mathematics 3815A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARABIC 1030 - ARABIC FOR BEGINNERS",
+        description:"For students with no previous knowledge of Arabic, this course introduces spoken and written Modern Standard Arabic with emphasis on the development of communicative skills. Prepares students for progression directly to Arabic 2250.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARABIC 1035 - BEGINNER ARABIC",
+        description:"For students with some background in Arabic (heritage speakers), this course develops communicative skills and the ability to use Modern Standard Arabic. Prepares students for progression into Arabic 2250. Students are enrolled on the basis of a placement test.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARABIC 1070A - QURANIC ARABIC FOR BEGINNERS",
+        description:"An introduction to Quranic Arabic for beginners with no previous knowledge of the Arabic language. Learn the script of the Qur’an, acquire core vocabulary necessary to understand short Quranic chapters, and dive into basic grammar of classical Arabic.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARABIC 2080B - INTERMEDIATE QURANIC ARABIC",
+        description:"This course builds upon Quranic Arabic for Beginners 1070A/B. The focus is to expand Quranic vocabulary and to acquire a familiarity with more complex grammatical structures through studying Quranic texts. By the end of this course, students will have acquired the key principles of Quranic grammar.",
+        prereq:"Arabic 1070A/B, or permission of the instructor.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARABIC 2250 - INTERMEDIATE ARABIC",
+        description:"This course is designed to build upon skills in reading and speaking Arabic developed in earlier courses. Students will gain increased vocabulary and a greater understanding of more complex grammatical structures. They will be able to approach prose, fiction, and non-fiction written in the language.",
+        prereq:"Arabic 1030, Arabic 1035 or Grade 12U Arabic, or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "AH 1642A - HISTORY OF ART & VISUAL CULTUR",
+        description:"An introductory visual and historical survey with a focus on Western art from the Baroque period to Contemporary times. The course provides a study of painting, sculpture, architecture, and other forms of media through considerations of the cultural environments within which they were produced. Students will gain a working knowledge of terms, methodologies, and themes in art history. ",
+        prereq:"None",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "AH 1648B - COLLECTING ART AND CULTURE",
+        description:"This introductory course serves as a starting point to study the foundations of art history. It focuses on historical and contemporary practices of collecting art and cultural objects and introduces key principles of museum and curatorial studies. ",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "AH 2600F - THEORIES & PRAC OF ART HIST",
+        description:"A brief introduction to historical and contemporary theories, methods, and practices for the study of art history and visual culture.",
+        prereq:" Registration in years 2 - 4 of a Department of Visual Arts Module, or permission of the department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "AH 2632G - CANADIAN ART",
+        description:"An introduction to the visual arts of Canada in the 20th century, including First Nations and Inuit art, cultural policy, and collecting and curatorial practices in Canada. Key movements in Canadian art are discussed in relation to the social and political context. ",
+        prereq:"1.0 from Art History 1640 or two of Art History 1641A/B-1648A/B, or the former VAH 1040 or two of the former VAH 1041A/B–1045A/B, or 1.0 essay course from Arts and Humanities, FIMS, or Social Science, or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "AH 2636F - BAROQUE IN EUROPE & IBERIAN",
+        description:"A survey of Baroque and Iberian colonial-era art and architecture. Lectures will consider cultural connections between the Spanish and Portuguese Baroque styles and the colonial exchanges linking Europe, the Americas, Asia and other continental connections.",
+        prereq:"1.0 from Art History 1640 or two of Art History 1641A/B-1648A/B, or the former VAH 1040 or two of the former VAH 1041A/B–1045A/B, or Medieval Studies 1022, Medieval Studies 1025A/B or Medieval Studies 1026A/B, or 1.0 essay course from Arts and Humanities, FIMS, or Social Science, or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "AH 2676F - INTRODUCTION TO DESIGN",
+        description:"This course examines the history and practice of modern design from the end of the 19th century to the present day. It outlines some of the fundamental principles of design, as well as looking at its political and sociocultural impact.",
+        prereq:"1.0 from Art History 1640 or two of Art History 1641A/B-1648A/B, or the former VAH 1040 or two of the former VAH 1041A/B–1045A/B, or 1.0 essay course from Arts and Humanities, FIMS, or Social Science, or permission of the Department.",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "AH 3660G - HOLLYWOOD AND ART",
+        description:"This course explores the relationship between film and the visual arts, from the invention of cinema to contemporary visual artists who have made Hollywood film the subject of their work.",
+        prereq:"Registration in years 3 or 4 of a Department of Visual Arts Module, or permission of the Department.",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "ARTHUM 1020E - INTRO TO THE ARTS & HUMANITIES",
+        description:"A combined historical and thematic survey of select fields that comprise the Humanities and the various approaches and methods they employ in furthering our understanding of the human experience. The various forms of communication used in the arts will also be examined",
+        prereq:"Admission to the School for Advanced Studies in Arts and Humanities",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARTHUM 2200E - CRITICAL THEORIES - ARTS & HUM",
+        description:"This course addresses contemporary theories and historical approaches currently used in the Arts and Humanities. The course aims to provide a foundation for critical thought by exploring how different disciplines understand and interpret texts, objects, and historical contexts.",
+        prereq:"75% or higher in Arts and Humanities 1020E.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARTHUM 2220F - EFFECTIVE CMN IN THE ARTS&HUM",
+        description:"This course examines the critical forms and strategies of writing and speaking in the Arts and Humanities by studying the principles and practices of rhetoric, argumentation, stylistic clarity, editing/rewriting, with an eye to students' professional as well as academic development. ",
+        prereq:"75% or higher in Arts and Humanities 1020E.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARTHUM 2230G - DIGITAL TOOLS, DIGITAL LIT",
+        description:"This course examines the evolution of information systems and the impact of digital technologies on research in the Arts and Humanities through a hands-on examination of databases, search engines, and online archives; text mining and analysis tools; visualization, bibliography and citation software; social media, blogging, and website design and creation.",
+        prereq:"75% or higher in Arts and Humanities 1020E.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ARTHUM 3000A - INTERNSHIP",
+        description:"Academic Internship may be paid or unpaid, credit internship for up to four months, or a minimum of 140 hours. Students may pursue an internship within an approved institution or industry related to their module within the Faculty of Arts and Humanities. Extra Information: International students should consult with the Faculty’s academic counselling office to confirm eligibility. The student is required to a) maintain a suitable level of performance in the position as verified by the employer through evaluations and b) submit a mid-term as well as a final report, demonstrating how the experience gained through the internship relates to his/her coursework and program of study.",
+        prereq:"Registration in the third or fourth year of either a Major or Specialization within the Faculty of Arts and Humanities, with a cumulative average of at least 70% and no failures. Approval of the Department and Dean’s Office of the Arts and Humanities.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 1021 - GENERAL ASTRONOMY",
+        description:"A general survey of astronomy including: the solar system and its constituents; stars, their basic properties and evolution; systems of stars including clusters, the milky way and other galaxies; the universe, its past, present and future structure; astronomical instruments; topics of current interest including pulsars, quasars, black holes.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 2020F - TWO-EYED SEEING AND ASTRONOMY",
+        description:"An introduction to the intersection between Indigenous and Western astronomy, particularly as it relates to naked-eye observations of the night sky; using astronomy as a gateway to learn more about Indigenous culture, history, and the process of decolonization and reconciliation.",
+        prereq:"None",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "ASTRONOM 2021A - SEARCH FOR LIFE IN THE UNIVERS",
+        description:"This course is designed for non-science students as an introduction to current scientific thinking on the possibility of extraterrestrial life and intelligence. Ideas, observations, and experiments from the frontiers of many areas of science converge in this unique interdisciplinary field. Emphasis will be on topics of current interest, including searches for life in our Solar System, detection of extrasolar planets, and the origins of life on Earth.",
+        prereq:"NOT AVAILABLE TO STUDENTS REGISTERED IN THE FACULTY OF SCIENCE EXCEPT THOSE REGISTERED IN ANY ENVIRONMENTAL SCIENCE MODULE, MINOR IN CONCEPTUAL ASTRONOMY, OR MINOR IN PLANETARY SCIENCE AND SPACE EXPLORATION.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 2022B - THE ORIGIN OF THE UNIVERSE",
+        description:"This course is designed for non-science students as an introduction to current ideas about the universe. Topics include the Big Bang, cosmic microwave background, origin of elements, and origin of galaxies, stars, and planetary systems.",
+        prereq:"MAY NOT BE TAKEN FOR CREDIT BY STUDENTS IN THE FACULTY OF SCIENCE.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 2201B - PLANETARY SYSTEMS",
+        description:"An examination of planets and their environments, both in our own Solar System and in planetary systems around other stars. Celestial mechanics; dynamics of the Earth; the Earth-Moon System; planets, including atmospheres and interiors; satellites; comets; meteors; the interplanetary medium; detection, origin and evolution of planetary systems.",
+        prereq:"Physics 1028A/B or Physics 1301A/B or Physics 1401A/B or Physics 1501A/B) and (Physics 1029A/B or Physics 1302A/B or Physics 1402A/B or Physics 1502A/B); Calculus 1000A/B or Calculus 1500A/B, and Calculus 1501A/B (or Calculus 1301A/B with a minimum mark of 85%). Integrated Science 1001X with a minimum mark of 60% can be used in place of Physics 1302A/B and Calculus 1301A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 2801A - OBSERVING THE STARS",
+        description:"The properties of stars, the building blocks of the universe, and how we obtain their characteristics. The night sky, coordinates, detectors, telescopes, stellar magnitudes and fluxes, spectra, interaction of light and matter, Hertzsprung-Russell diagram, stellar evolution, and the Sun. Introduction to astrophysics, order of magnitude estimates, astronomical nomenclature and observations.",
+        prereq:"(Physics 1028A/B or Physics 1301A/B or Physics 1401A/B or Physics 1501A/B) and (Physics 1029A/B or Physics 1302A/B or Physics 1402A/B or Physics 1502A/B); Calculus 1000A/B or Calculus 1500A/B, and Calculus 1501A/B (or Calculus 1301A/B with a minimum mark of 85%). Integrated Science 1001X with a minimum mark of 60% can be used in place of Physics 1302A/B and Calculus 1301A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 3302A - ASTROPHYSICS INTRSTLLR SPACE",
+        description:"The physics of interstellar space - the gas, dust, electromagnetic radiation, cosmic rays, and magnetic fields - present between the stars in a galaxy and between galaxies. Star formation, the interaction of light and matter, and the physical processes that determine the properties, dynamics, and behavior of the interstellar medium.",
+        prereq:"Physics 2101A/B, Physics 2102A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "ASTRONOM 4602B - GRAVITATNL ASTROPHYS & COSMLGY",
+        description:"Introduction to gravity in astrophysics. Application of Newtonian gravitation to basic galactic dynamics and galactic structure. An introduction to general relativity with applications to black holes, cosmology, and the early universe.",
+        prereq:"Physics 2101A/B and Physics 2102A/B, or the former Physics 2128A/B and the former Physics 2129A/B; Calculus 2503A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 2280A - BIOCHEM & MOLEC BIOL",
+        description:"An introduction to biochemistry with emphasis on protein structure and function, intermediary metabolism and nucleic acid structure and function.",
+        prereq:"Either Biology 1001A or Biology 1201A and either Biology 1002B or Biology 1202B; Chemistry 1301A/B and Chemistry 1302A/B. Integrated Science 1001X can be used as a prerequisite in place of Biology 1002B and Chemistry 1302A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 2288A - BIOCHEM & MOLECULAR BIOLOGY",
+        description:" An introduction to biochemistry with emphasis on protein structure and function, intermediary metabolism and nucleic acid structure and function.",
+        prereq:"Chemistry 1301A/B and Chemistry 1302A/B; Biology 1290B; and registration in senior years of Foods and Nutrition modules.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3380G - BIOCHEMISTRY LABORATORY",
+        description:"This course consists of a series of laboratory exercises designed to familiarize the student with the basic methods in biochemistry and molecular biology, and to demonstrate concepts taught in biochemistry lecture courses. Students will learn how to present their results in an acceptable scientific format.",
+        prereq:"Biochemistry 3381A and Biochemistry 3382A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3381A - BIOLOGICAL MACROMOLECULES",
+        description:"A consideration of the structure of proteins and nucleic acids; enzymology; elements of recombinant DNA technology and related methodology.",
+        prereq:"A minimum mark of 65% in either Biochemistry 2280A or Biochemistry 2288A; a minimum mark of 60% in either Chemistry 2213A/B or Chemistry 2273A; and a minimum mark of 60% in either Chemistry 2223B or Chemistry 2283G.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3382A - BIOCHEMICAL REGULATION",
+        description:"Among the topics discussed will be principles of metabolic control, mechanisms of signal transduction, regulation of DNA replication, regulation of gene expression, and epigenetic mechanisms of gene regulation.",
+        prereq:"A minimum mark of 65% in either Biochemistry 2280A or Biochemistry 2288A; a minimum mark of 60% in either Chemistry 2213A/B or Chemistry 2273A; and a minimum mark of 60% in either Chemistry 2223B or Chemistry 2283G",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3383F/G - INTRO TO BIOCHEMICAL RESEARCH",
+        description:"Students carry out a research project under the direction of a faculty member, gaining practical experience in a biochemistry research laboratory. Experimental design, critical thinking, and scientific communication will be emphasized, and students will develop skills at reading and reviewing primary scientific literature.",
+        prereq:"Permission of the Department. Pre-or Corequisite(s): Biochemistry 3381A and Biochemistry 3382A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3385A - HUMAN BIOCHEMISTRY",
+        description:"A course dealing with Biochemical aspects of the human condition. Topics in human disease, medical testing, and lifestyle will be considered in a clinical-case-oriented fashion. The emphasis will be on structural and metabolic issues related to carbohydrates, lipids, vitamins, minerals, nucleic acids and proteins.",
+        prereq:"A minimum mark of 65% in either Biochemistry 2280A or Biochemistry 2288A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3386B - CLINICAL BIOCHEMISTRY",
+        description:"The application of biochemical and molecular principles to the analytical components used to select, evaluate and interpret tests for clinical diseases. Also included will be discussions on the specialized instruments required. Students will gain understanding of the practice of clinical biochemistry, as one of the disciplines of laboratory medicine.",
+        prereq:"Either Biochemistry 2280A or Biochemistry 2288A with a mark of at least 65%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3390B - ADVANCED METHODS FOR BIOCHEM",
+        description:"Students will explore the chemical and physical underpinnings of biochemical phenomena by solving practical, real-world, quantitative problems. Students will learn how to answer biochemical research questions by applying advanced experimental strategies and techniques, including methods in bioinformatics and the mining of biochemical databases.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 3392G - SYNTHETIC BIOLOGY",
+        description:"An introduction to the principles of synthetic biology. Students learn to retrieve and apply information from databases to design and model regulated biological circuits using standard components (Biobricks). Teams of students create, communicate, and defend original synthetic biology proposals.",
+        prereq:"Biochemistry 2280A, Biology 2290F/G, Biology 2382A/B and Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4410A - MOLECULAR BIO DNA & RNA",
+        description:"The use of fundamental techniques in molecular biology and molecular genetics are illustrated using examples from the classic and current literature. Selected topics include eukaryotic gene cloning, transgenic animals, rational drug design, DNA replication and cell cycle regulation.",
+        prereq:"Biochemistry 3381A and Biochemistry 3382A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4415B - APPL SYNTHETIC BIO & CHEM GEN",
+        description:"This course will explore how metabolic pathways are currently being re-engineered in microorganisms to produce drugs that are otherwise difficult to manufacture. We will also investigate how drug targets are being identified using newly developed chemical genetic screening methods. The impact of both approaches on medicine will be evaluated.",
+        prereq:"Either (Biochemistry 3381A and Biochemistry 3382A) or (Biochemistry 2280A and one of Chemistry 3393A/B or Chemistry 4493A/B).",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4420A - MOLECULAR BIO OF PROTEINS",
+        description:"Topics to be considered at an advanced level will include: translation, folding and assembly, targeting, turnover, structure and motifs.",
+        prereq:"Prerequisite(s): Biochemistry 3381A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4425B - PROTEOMICS & PROTEIN BIOTECH",
+        description:"The course will cover applied aspects of protein chemistry in biotechnology and protein design. Topics covered will include applications of modern analytical and biophysical techniques used in proteomics and related biochemical analyses, protein structure design, and antibody engineering.",
+        prereq:"Biochemistry 4420A.",
+        times:"",
+        associations:"technology"
+    },
+    {
+        title: "BIOCHEM 4450A - MOLECULAR GENETICS HUMAN CANCR",
+        description:"Key cellular pathways that are frequently subverted in tumour cells leading to neoplasia will be discussed, as well as mechanisms by which environmental factors affect tumour development. Cancer models and molecular therapies will also be considered.",
+        prereq:"Biology 2581A/B, Biochemistry 3381A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4455G - TRANSLATION IN CANCER BIOLOGY",
+        description:"The translation of cancer research discoveries into clinical practice, emphasizing critical thinking, research design, evaluation of data from the literature and ethics. Students will engage with community partners associated with cancer research, patient support and care, and will work on a team project relevant to the partners’ needs.",
+        prereq:"Biochemistry 4450A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOCHEM 4463B - MOLECULAR BASIS OF HUMAN DIS.",
+        description:"This course applies knowledge of biochemistry and molecular biology to the understanding of human diseases. Topics of current interest are used as examples to explore the molecular mechanisms by which disease states arise and how this knowledge can be used to design therapies.",
+        prereq:"Biochemistry 3381A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1001A - BIOLOGY FOR SCIENCE I",
+        description:"The principles of biology taught using an integrative, question-based approach. Topics include inheritance, evolution and ecology. This course is intended for students registered in the Faculty of Science.",
+        prereq:"Prerequisite(s): Grade 12U (SB14U) Biology or Grade 11U (SB13UA) Biology and permission of the Department. A minimum mark of 80% in Grade 12 U Biology (SB14U) is recommended for students registered in a faculty other than the Faculty of Science.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1002B - BIOLOGY FOR SCIENCE II",
+        description:"The principles of biology taught using an integrative, question-based approach. This course is primarily intended for students enrolled in the Faculty of Science. Topics include enzyme structure/function, membrane structure/function, bioenergetics, photosynthesis, respiration, molecular genetics. Antirequisite(s): Biology 1202B, Biology 1225. Extra Information: 2 lecture hours, 3 laboratory/tutorial hours.",
+        prereq:"Prerequisite(s): Grade 12U (SB14U) Biology or Grade 11U (SB13UA) Biology and permission of the Department. A minimum mark of 80% in Grade 12U Biology (SB14U) is recommended for students registered in a faculty other than the Faculty of Science",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1201A - GENERAL BIOLOGY I",
+        description:"This course provides an understanding of fundamental biological concepts with emphasis on function in and relevance to humans. Topics include inheritance, evolution, ecology, behaviour, ecosystem health. This course is not available to students enrolled in the Faculty of Science (students registered in the Faculty of Science should select Biology 1001A).",
+        prereq:"Prerequisite(s): Grade 12U (SB14U) Biology or Grade 11U (SB13UA) Biology and permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1202B - GENERAL BIOLOGY II",
+        description:"This course provides an understanding of fundamental biological concepts with emphasis on function in and relevance to humans. Topics include molecular genetics, physiology, bioenergetics. This course is not available to students enrolled in the Faculty of Science (students registered in the Faculty of Science should select Biology 1002B).",
+        prereq:"Prerequisite(s): Grade 12U (SB14U) Biology or Grade 11U (SB13UA) Biology and permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1225 - BIOLOGY OF ORGANISMS",
+        description:"A study of the whole organism with emphasis on organization, growth, development, integration, reproduction and heredity.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 1290B - BIOLOGY AND MICROORGANISMS",
+        description:"The fundamental principles of biology with emphasis on cell function and the role of microorganisms in public health, sanitation, food, and nutrition. Restricted to Food and Nutrition modules or by permission of the Department of Biology",
+        prereq:"Prerequisite(s): Grade 12U (SBI4U) Biology.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2217B - ECONOMIC BOTANY",
+        description:"An introduction to economically important plants and their products, especially as sources of food, fuel, drugs and industrial raw materials. National and international programs relating to food and other plant resources.",
+        prereq:"Either Biology 1001A or Biology 1201A and either Biology 1002B or Biology 1202B or Integrated Science 1001X; or registration in Foods and Nutrition modules.",
+        times:"",
+        associations:"biology"
+    },
+    {
+        title: "BIOLOGY 2244A/B - ANALYSIS & INTERPRETATION",
+        description:"An introductory course in the application of statistical methods, intended for students in departments other than Statistical and Actuarial Sciences, Applied Mathematics, Mathematics, or students in the Faculty of Engineering. Topics include sampling, confidence intervals, analysis of variance, regression and correlation.",
+        prereq:"1.0 Mathematics course or equivalent numbered 1000 or above. Statistical Sciences 1024A/B can be used to meet 0.5 of the 1.0 mathematics course requirement.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2290F/G - SCIENTIFIC METHOD BIOLOGY",
+        description:"A laboratory course designed to promote understanding of the scientific method by acquainting students with selected technical and conceptual tools that will enable them to generate, analyze and communicate data from experimental investigations of their own design in the areas of cell biology, population biology and genetics.",
+        prereq:"A minimum mark of 60% in either Biology 1001A or Biology 1201A and a minimum mark of 60% in either Biology 1002B or Biology 1202B or Integrated Science 1001X.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2382B - CELL BIOLOGY",
+        description:"Molecular and structural organization of cells in relation to function. Composition and dynamics of the plasma membrane and membrane-bound compartments in cells. Synthesis and trafficking of proteins. Cytoskeleton and cell motility. Membrane receptors in signal and energy transduction, cell-cell adhesion and recognition. Excitable membranes. ",
+        prereq:"Either Biology 1001A or Biology 1201A and either Biology 1002B or Biology 1202B; Chemistry 1301A/B and Chemistry 1302A/B. Integrated Science 1001X with a minimum mark of 60% can be used as a prerequisite in place of Biology 1002B and Chemistry 1302A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2483A - ECOLOGY",
+        description:"An introduction to ecology, the scientific study of the interactions that determine the distribution and abundance of plants, animals, and microorganisms. Ecological concepts at the organism, population and ecosystem levels will be considered, including tolerance limits, life history evolution, competition, predation, population growth and control, and ecosystem dynamics.",
+        prereq:"A minimum mark of 60% in either Biology 1001A or Biology 1201A and a minimum mark of 60% in either Biology 1002B or Biology 1202B or Integrated Science 1001X.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2485B - ENVIRONMENTAL BIOLOGY",
+        description:"Basic principles of environmental biology, human ecology, ecosystem structure and function. Human population growth and its impact on soil, water, energy, agriculture and natural populations of plants and animals. Environmental problems created by resource exploitation and possible solutions.",
+        prereq:"Either Biology 1001A or Biology 1201A and either Biology 1002B or Biology 1202B or Integrated Science 1001X.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2581B - GENETICS",
+        description:"The structure, transmission and expression of genetic elements in prokaryotic and eukaryotic organisms and populations.",
+        prereq:"A minimum mark of 60% in either Biology 1001A or 1201A and a minimum mark of 60% in either Biology 1002B or 1202B or Integrated Science 1001X; Biochemistry 2280A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 2601A - ORGANISMAL PHYSIOLOGY",
+        description:"This course provides a general background in the mechanisms and consequences of physiological processes in plants and animals. It will take an integrated approach and include a comparative context, wherever possible. It will include hands-on laboratory work with both plants and animals.",
+        prereq:"A minimum mark of 60% in either Biology 1001A or Biology 1201A and a minimum mark of 60% in either Biology 1002B or Biology 1202B or Integrated Science 1001X.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3218G - BIOLOGY OF THE FUNGI",
+        description:"This course provides an introduction to the fungi with emphasis on their biology, ecology, genetics and interactions with other organisms, including humans and their crops. Emphasis is on the true fungi, including yeasts, with brief treatment of other fungus-like microbes of the Kingdoms Chromalveolata and Amoebozoa.",
+        prereq:"At least 1.0 course in Biology at the 2200-level or higher.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3220Z - FIELD STUDIES IN BIOLOGY",
+        description:"Permission of the Department of Biology. See the departmental office in January of each year for list of offerings, requirements, and credits. This course may be used as a half laboratory course.",
+        prereq:"Specialized field courses given by biologists from Ontario universities at various times during the year. Students should be prepared to meet travel and living expenses. Extra Information: Sessions and hours by arrangement.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3229G - ANIMAL DIVERSITY",
+        description:" An introduction to animal phyla focused on understanding the diversity of body plans across the animal kingdom. Characteristics defining major animal groups, and key evolutionary designs and innovations are discussed in relation to ecology and life habits. Both extant, and some fossil, forms will be considered to illustrate animal evolution.",
+        prereq:"At least 1.0 course from: Biology 2290F/G, Biology 2382A/B, Biology 2483A/B, Biology 2581A/B, Biology 2601A/B and registration in third or fourth year.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3230F - FIELD RESEARCH IN BIOLOGY",
+        description:"This field course provides a theoretical and hands-on introduction to the planning and execution of field studies in biology using quantitative tools. A breadth of study organisms and systems will be covered. This course includes four or five field trips during the lab and lecture timeslots.",
+        prereq:"A minimum mark of 60% in Biology 1001A or Biology 1201A, and Biology 1002B or Biology 1202B or Integrated Science 1001X, and Biology 2244A/B or Statistical Science 2244A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3316B - ADVANCED CELL BIOLOGY",
+        description:"The functional organization and physiology of cells with special reference to cellular membranes, energetics, cell motility, cell specializations, and cell-cell interactions. The course is based on the interpretation of experimental observations.",
+        prereq:"Biochemistry 2280A; Biology 2382A/B",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3326F - CELL BIOLOGY LABORATORY",
+        description:"Training in current cell biological methods such as tissue culture, cell fractionation, computer-assisted microscopic analysis and immunocytochemistry.",
+        prereq:"Biology 2290F/G, Biochemistry 2280A; a minimum mark of 70% in Biology 2382A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3338A - DEVELOPMENTAL BIOLOGY",
+        description:"Principles underlying the molecular, biochemical, and cellular mechanisms by which an organism develops. Classic and contemporary perspectives in embryology and development.",
+        prereq:"Biochemistry 2280A; Biology 2581A/B, and Biology 2382A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3355B - MOLECULAR CELL BIO OF STRESS",
+        description:"This course will cover a range of environmental, physiological, and pathological stresses common to animal systems. The focus will be on evolutionary conserved cell stress responses, individual signaling pathways and the molecules controlling the action of specific stress stimuli.",
+        prereq:"Biology 2382A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3415G - AQUATIC ECOLOGY",
+        description:"This course examines water as a habitat for life and the ecology of freshwater and marine environments. Emphasis will be placed on the diversity and roles of zooplankton and microorganisms in aquatic ecosystems. Ecological impacts of ocean acidification, invasive species, and eutrophication will also be examined.",
+        prereq:"Biology 2483A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3435G - ANIMAL ECOLOGY",
+        description:"Key concepts in applied, individual-based animal ecology: limiting factors and the ecological niche, habitat selection, ecological traps, movement, dispersal, migration, growth and bioenergetics, and physiological flexibility. Labs will integrate field-based and quantitative approaches in the study of individual-based ecology.",
+        prereq:"Biology 2483A/B; and Biology 2244A/B or Statistical Sciences 2244A/B with a minimum grade of 60%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3436F - ANIMAL BEHAVIOUR",
+        description:"Introduction to the science of animal behavior with emphasis on the evolution and adaptive nature of behavior. A comparative experimental approach is used to illustrate topics such as the development, control, and organization of behavior, foraging, predation, mate choice, mating systems, parental care, communication, and social behavior.",
+        prereq:"One of the following: Biology 2244A/B, Statistical Sciences 2244A/B, Psychology 2810. Pre-or Corequisite(s): Biology 2483A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3440A - ECOLOGY OF POPULATIONS",
+        description:"Knowing how many individuals of a given species there are and identifying the factors that cause population numbers to change is fundamental for conservation, fisheries, forestry, and managing everything from pest insects to pandas. This course combines the central tenets of population ecology with hands-on techniques for its practical application.",
+        prereq:"Biology 2483A/B; One of Biology 2244A/B, Psychology 2810, or Statistical Sciences 2244A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3442F - CONSERVATION BIOLOGY",
+        description:"This course introduces fundamental concepts and issues in conservation biology. We explore the three prongs of conservation including: (1) the science involved in conserving biodiversity; (2) the political systems that directly affect conservation; (3) how to access the political system to maximize the probability of implementing conservation programs.",
+        prereq:"Biology 2483A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3444A - MOLECULAR ECOLOGY",
+        description:"An introduction to the use of molecular tools in addressing both basic and applied questions in ecological research, including population, behavioural, community and ecosystem ecology. Lectures and student-led seminars develop basic knowledge and theory underlying molecular ecology, and present many recent case studies from the primary literature.",
+        prereq:"Biology 2483A/B, Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3445F - COMMUNITY ECOLOGY",
+        description:"An integrative approach to ecology, stressing the structure and function of communities. Theoretical explanations for community assembly/disassembly, patterns in space and time, and emergent properties of stability and productivity are evaluated using a variety of community types as examples.",
+        prereq:"Biology 2483A/B; and Biology 2244A/B or Statistical Sciences 2244A/B with a minimum grade of 60%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3446B - WILDLIFE ECOLOGY/MGMT",
+        description:"The application of ecological principles to the management of wildlife species. Topics include techniques, harvest, predation, habitat loss and management, stocking and reintroductions, and economics of wildlife. Identification and biology of game, pest and furbearing species in laboratories; films are used frequently.",
+        prereq:"Biology 2483A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3466B - EVOLUTIONARY GENETICS",
+        description:"The study of evolution in large and small random and non-random mating populations, showing discrete and quantitative inheritance. The roles and importance of mutation, inbreeding, drift, selection and linkage.",
+        prereq:"One of Biology 2244A/B, Statistical Sciences 2244A/B, Psychology 2810; Biology 2581A/B; or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3484B - PATTERNS IN DIVERSITY OF LIFE",
+        description:"This course considers the large-scale patterns in the Earth's biota: patterns in life's diversification and extinction, changing the biota through time; patterns in the form and functioning of organisms, reflected in biological classification; patterns in the global distribution of life's lineages, and in their major responses to Earth's diverse climate.",
+        prereq:"At least 1.0 course from: Biology 2290F/G, Biology 2382A/B, Biology 2483A/B, Biology 2581A/B, Biology 2601A/B and registration in third or fourth year.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3592A - PRINC OF HUMAN GENETICS",
+        description:"Genetic principles and their application to humans. Special attention will be directed to the genetic variation in our species, mutations, mechanisms of gene expression, and mapping the human genome.",
+        prereq:"Biochemistry 2280A; Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3593B - GENETIC ENGINEERING",
+        description:"An accounting of the principles in genetics that have led to advances in animal and plant breeding earlier in this century; recombinant DNA and other technologies employed in contemporary biotechnology; and the basis for continued progress in genetic engineering.",
+        prereq:"Biochemistry 2280A; Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3594B - DNA:GENOME ORG, MUTAGEN & RPR",
+        description:"This course will cover concepts related to DNA organization, replication, mutagenesis and repair in both prokaryotic and eukaryotic organisms. Lecture topics will include current literature in DNA mutagenesis and repair designed to permit direct examination of concepts, experimental design, methodology, data analysis and future trends.",
+        prereq:"Biochemistry 2280A; Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3595B - ADVANCED GENETICS",
+        description:"This course will use examples from diverse biological systems to expand basic genetic principles such as mutation, recombination, gene and genome evolution, complex inheritance and functional genomics. Current research information will be used to inform discussion of the implication and applications of these topics.",
+        prereq:"A minimum grade of 70% in Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3596A/B - GENOMICS & BEYOND: A LAB COURSE",
+        description:"A practical introduction to modern experimental approaches in genetics and molecular biology as applied to such topics as genomics (gene identification and classification), functional genomics (genome expression profiles) and bioinformatics (computational genomic analysis).",
+        prereq:"A minimum mark of 70% in each of Biology 2290F/G and Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3597A - REGULATION OF GENE EXPRESSION",
+        description:"A discussion of the genetic material and molecular mechanisms governing its expression in a variety of organisms.",
+        prereq:"Biochemistry 2280A; Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3598A - BEHAVIOURAL GENETICS",
+        description:"The roles of genes and genetic variation in the evolution and expression of animal behaviour are examined. Major themes include the population genetics and quantitative genetics of behaviour, the molecular biology of gene discovery, and the evolution of behavioural traits, including social traits, as studied through vertebrate and invertebrate model systems.",
+        prereq:"Biology 2581A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3601A - ANIMAL PHYSIOLOGY I",
+        description:"This course will examine the form and function of physiological and biochemical systems in the vast diversity of non-human animals. It will emphasize the importance of phylogeny and environmental selective pressures on the evolution of these systems.",
+        prereq:"A minimum mark of 60% in Biology 2601A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3602B - ANIMAL PHYSIOLOGY II",
+        description:"This course explores the mechanisms, integration and evolution of physiological and biochemical systems within animals. By using a comparative approach, we will explore the diversity of evolutionary 'strategies' adopted by phylogenetically distinct animals. Animals thriving in extreme environments will be featured. Human physiology will be discussed only briefly.",
+        prereq:"A minimum mark of 60% in Biology 2601A/B",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3603A - ECOPHYSIOLOGY OF PLANTS",
+        description:"This course introduces students to the physiological mechanisms governing the success and distribution of plants in different environments. Specific topics covered will include leaf energy balance, photosynthesis, water transport and mineral nutrition. This course will provide background information for further courses in plant ecology or plant physiology.",
+        prereq:"Biology 2601A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3625G - TECHNQUES IN PHYSIOL & BIOCHEM",
+        description:"Training in current techniques used in physiology and biochemistry. Emphasis is placed on the functional integration of systems from the molecules to the whole organism level and the assignment of function to genes. Techniques include chromatography, electrophoresis, protein and nucleic acid blotting, enzyme assays and whole organism or organelle measurements.",
+        prereq:"Biochemistry 2280A; Biology 2290F/G; Biology 2382A/B; one of Biology 2601A/B, Physiology 3120 or Physiology 3140A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 3660B - PLANT METABOLISM",
+        description:"Plants are photoautotrophs and biosynthesize all of their metabolites using CO2, water, micronutrients and sunlight. This course surveys the major metabolic pathways of plants, including primary (C, N, S and P assimilation, amino acid and nucleotide biosynthesis) and secondary (alkaloids, phenolics, terpeniods) metabolism, with emphasis on enzyme and pathway regulation.",
+        prereq:"Biology 2601A/B or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4218A - PLANT PATHOLOGY",
+        description:"Plant diseases caused by abiotic and biotic factors with emphasis on effects of important pathogenic viruses, bacteria and fungi. Relationships between host, pathogen and environmental factors, epidemiology and methods of control.",
+        prereq:"Biology 3218F/G, or permission of the Department.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4230A - ECOSYSTEM HEALTH",
+        description:"A characterization of ecosystems, contaminants, and the human health concerns. Course material will cover the production, transport, transformation and fate of environmental contaminants, with an emphasis on their anthropogenic impacts. Emphasis will include the assessment of human health exposure and biomarkers of environmentally associated disease.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4259F - RESEARCH HYPOTHESIS TESTING",
+        description:"This course will equip students with some of the basics of experimental design and statistical analysis useful for understanding, conducting and presenting biological research. The emphasis is on practical application rather than theory, and on problems of particular concern in biological studies.",
+        prereq:"Biology 2244A/B or Statistical Sciences 2244A/B (see note); and completion of at least 1.5 Biology courses at the 3000-level or above.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4260B - CELLULAR SYSTEMS BIOLOGY",
+        description:"This course focuses on using interdisciplinary systems-level methods to understand both biochemical reaction networks and gene regulatory networks. The application of systems level knowledge to the emerging discipline of synthetic biology also forms a major component of the course.",
+        prereq:"Completion of at least 1.5 Biology courses at the 3000 level or above.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4289B - BIOSYSTEMATICS & PHYLOGENETICS",
+        description:"An overview of modern approaches to the classification and identification of living organisms, dealing with such topics as molecular evolution, the theory of biological systematics, phylogenetics, DNA fingerprinting, the Tree of Life and Barcoding projects, and bioinformatics.",
+        prereq:"Biology 2581A/B and completion of at least 1.5 Biology courses at the 3000 level or above.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4338G - ADV DEVELOPMENTAL BIOLOGY",
+        description:"An analysis of specific topics in the embryology and development of model organisms. The course will focus primarily on genetic and biochemical pathways which have been conserved between distantly related organisms.",
+        prereq:"A minimum grade of 75% in Biology 3338A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4355F - THE BIOLOGY OF AGING",
+        description:"Aging is an extremely complex multifactoral process governed by genetic, epigenetic and environmental factors. This course will explore current topics including: model organisms to study aging, identification of 'aging genes', longevity variation among different species, signalling pathways and the role of reactive oxygen species in aging and age-associated diseases. ",
+        prereq:"Biology 3316A/B and enrollment in Year 4 of an Honors Specialization module offered through the Department of Biology or the Basic Medical Science departments.",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "BIOLOGY 4405B - ECOSYSTEM ECOLOGY",
+        description:"This course traces the flow of water, energy, and nutrients from their abiotic origins, to their cycles through microbes, plants, and animals. This course will synthesize current advances in ecology with established theory to offer a comprehensive survey of ecosystem pattern and process.",
+        prereq:"Biology 2483A/B and 0.5 Biology course at the 3000-level.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4410F - RESTORATION ECOLOGY",
+        description:"The theory and practice of restoration of habitats for native biodiversity. Topics include ecosystem functioning and relationships at various spatial scales as applied to restoration, invasive species management and reclamation of contaminated sites. The value of ecosystem services, financial and practical considerations will be discussed.",
+        prereq:"Biology 3442F/G and Biology 3445F/G.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4412G - BIODIVERSITY SCIENCE",
+        description:"A consideration of the major aspects of biodiversity, including the approaches and techniques used for its measurement, assessment, monitoring and management. Biodiversity will be viewed from the level of the gene through species to ecosystems. The causes of biodiversity loss and its ecological and socio-economic impacts will also be discussed.",
+        prereq:"Biology 2244A/B or Statistical Sciences 2244A/B with a minimum grade of 60% and at least 0.5 course from Biology 3440A/B, Biology 3442F/G, Biology 3445F/G.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4420A - INSECT BIOLOGY",
+        description:"An introduction to external and internal insect anatomy and fundamentals of insect physiology. The course will also examine how variations in morphological and physiological traits allow insects to exploit diverse habitats worldwide. The laboratory component will focus on the characteristics of major insect orders and families.",
+        prereq:"Biology 2483A/B and 0.5 Biology course at the 3000-level.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4436G - BEHAVIOURAL ECOLOGY",
+        description:"A study of the relationships between animal behavior, ecology and evolution. Topics include: behavioral genetics and learning; mating systems, reproductive strategies and parental investment; foraging behavior, predation and competition; social groups and communication.",
+        prereq:"Biology 3436F/G or Psychology 3221F/G and either completion of at least 1.5 Biology courses from the 3000 level or above, or registration in year 4 of the Honors Specialization in Animal Behaviour.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4515B - GENOME BIOLOGY",
+        description:"The course will present concepts, techniques and approaches that represent basis for the field of modern genomics. The course focus is on the power of genomic and whole genome sequencing as a tool to understand whole genome regulation, expression and interactions between different genomes and discuss experimental design in genomics.",
+        prereq:"1.0 course from: Biology 3592A/B, Biology 3593A/B, Biology 3594A/B, Biology 3595A/B, Biology 3596A/B, Biology 3597A/B, Biology 3598A/B; and registration in Year 4 of an Honors Specialization module offered by the Department of Biology.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4560B - HUMAN MOLECULAR BIOLOGY",
+        description:"This course will offer an up-to-date examination of the current status of human genetics with emphasis on the molecular information. The specific course content is expected to change from year to year reflecting research progress, including the human genome project.",
+        prereq:"Biology 3592A/B and Biology 3596A/B; one additional 0.5 course in Biology at the 3000 level or above; and registration in year 4 of an Honors Specialization module offered through the Department of Biology or a Major in Genetics.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4561F - GENES AND GENOMES I",
+        description:"An examination of genome-level analytic methods in the context of more accurately defining the genotype-phenotype relationship. Topics to be covered include functional genomics, synthetic genomics, genome-wide association studies, machine learning, and synthetic genetic arrays.",
+        prereq:"Biology 3596A/B; and one of the following: Biology 3594A/B, Biology 3595A/B, Biology 3597A/B; and one additional 0.5 course in Biology at the 3000 level or above; and registration in year 4 of an Honors Specialization module or a Major in Genetics offered through the Department of Biology.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4562B - GENES AND GENOMES II",
+        description:"An examination of our understanding of the organization, structure and function of the genes and genomes of plants, emphasizing recent developments in plant molecular genetics involving model organisms. Topics include plant gene expression, mapping of plant genes, molecular tools for DNA transfer, the interrelationship of nuclear, mitochondrial and chloroplast genes.",
+        prereq:"Completion of at least 1.5 Biology courses at the 3000 level or above; and registration in year 4 of an Honors Specialization module or a Major in Genetics offered through the Department of Biology; or permission of the instructor.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4583F - MOLECULAR GENETICS LABORATORY",
+        description:"Project-based inquiry focused on refining the laboratory skills of senior genetics students. Experimental approaches will include analysis of gene expression using modern tools and techniques.",
+        prereq:"A minimum mark of 70% in each of Biology 3596A/B and 1.0 course from: Biology 3466A/B, Biology 3592A/B, Biology 3593A/B, Biology 3594A/B, Biology 3595A/B, Biology 3597A/B, Biology 3598A/B; and registration in year 4 of an Honors Specialization in Genetics or permission of the Genetics Undergraduate Coordinator.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4602F - THERMAL PHYSIOLOGY",
+        description:"This course examines the roles of heat and temperature as “master regulators” of physiology and biochemistry. It will emphasize how mechanisms underlying thermal effects integrate over spatial and temporal scales. Illustrative examples will be taken from the primary literature about organisms living in extreme or rapidly changing thermal environments.",
+        prereq:"A minimum mark of 65 % in one of Biology 3601A/B or Biology 3602A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4608G - ENVIRONMENTAL PLANT PHYSIOLOGY",
+        description:"Analysis of the primary literature on the physiological responses of plants to the environment. Topics include plant hormones and stress responses. Students will be encouraged to think broadly about plant biology, both its role in society (e.g. food safety and security, alternative fuels) and the scientific process (experimental design, publication).",
+        prereq:"Biology 2601A/B; registration in a Biology module and completion of at least 1.5 Biology courses at the 3000-level or above. Biology 3603A/B and Biology 3660A/B are recommended.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4611F - PHYSIOLOGY OF ANIMAL MIGRATION",
+        description:"The study of animal migration, focusing on migration as a life history trait, integrating physiology and biochemistry with ecological and evolutionary processes.",
+        prereq:"Biology 2601A/B or Physiology 3120; and either completion of at least 1.5 Biology courses from the 3000-level or above, or registration in Year 4 of an Honors Specialization in Animal Behaviour.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOLOGY 4998E - SYNTHETIC BIOLOGY",
+        description:"In this course students will develop project proposals in Synthetic Biology through group and peer workshops. The final project will be presented and subsequently executed in an open laboratory using the reagents provided.",
+        prereq:"Biology 3596A/B, Biochemistry 3392F/G. Pre-or Corequisite(s): Science 3377A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BME 3201A - FUNDAMENTALS OF BME DESIGN",
+        description:"The objective of this course is to develop design skills and tools used in Biomedical Engineering. Integration of the engineering and life sciences will be illustrated by presenting design principles for medical devices and systems. Emphasis will be placed on engineering design for the cardiovascular and musculoskeletal systems.",
+        prereq:"Completion of the first-year curriculum in the Faculty of Engineering with a year-weighted average of at least 80%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOSTATS 3100A - BIOSTATISTICAL METHODS",
+        description:"Epidemiologists work with categorical data (e.g. healthy, sick, dead) and with time to event data (e.g. time to death). This course introduces analytic methods of such data, expanding on aspects of study design and analysis introduced in Epidemiology 2200A/B. It requires a prior introduction to analyses of continuous data.",
+        prereq:"Biology 2244A/B or Statistical Sciences 2244A/B, and Epidemiology 2200A/B, with a minimum mark of 75% in each. Pre-or Corequisite(s): Epidemiology 3200A.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BIOSTATS 3110B - MULTIVARIABLE METHODS",
+        description:"This course covers frequently used multivariable regression models (linear for continuous outcomes and logistic for binary outcomes) in health research. By the end of the course students will (i) understand and critique applications of regression models appearing in the biomedical literature and (ii) carry out their own analyses.",
+        prereq:"Biostatistics 3100A and Epidemiology 3200A, with a minimum mark of 70% in each.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 1220E - INTRODUCTION TO BUSINESS",
+        description:"Business Administration 1220E, offered by the Ivey Business School, gives students from all faculties the opportunity to learn business fundamentals in finance, marketing, operations, organizational behavior and general management. The course is delivered using Ivey's renowned case method, which challenges students to learn by doing, within an active class environment of no more than 85 students. Students explore real business issues, make management decisions, defend their position, and take action. This course will be particularly appealing to those students who want a glimpse of Ivey's unique learning experience.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 1299E - BUSINESS FOR ENGINEERS",
+        description:"Students learn business fundamentals in finance, marketing, engineering economics, organizational behaviour and general management. Students are taught business decisionmaking using the case method, wherein students explore real business issues, make management decisions, defend their position, and take action, within an active class environment of no more than 85 students. ",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 2257 - ACCOUNTING & BUSINESS ANA",
+        description:"Prerequisite for entry to Honors Business Administration. Course Divisions: (1) Financial Accounting - development of financial statements, and the assessment of their uses and limitations. (2) Business Analysis and Management Accounting - using case studies with an emphasis on smaller businesses, students learn various quantitative decision-making tools highlighted by an entrepreneurial feasibility study.",
+        prereq:"Five courses at University level.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 2295F/G - BUSINESS BASICS FOR SCIENCES",
+        description:"This course is designed to provide students pursuing modules offered by the Faculties of Science, Health Sciences or the Schulich School of Medicine and Dentistry with an understanding of how business operates and how the individual employee fits into the larger business organization. Students are introduced to the basics of finance, marketing and organizational behaviour through Ivey Business School’s case method.",
+        prereq:"Registration in a Major, Specialization or Honors Specialization in the Faculties of Science, Health Sciences or the Schulich School of Medicine and Dentistry.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 2299E - BUSINESS FOR ENGINEERS",
+        description:"The course is designed to introduce students to managerial decision-making. The case method is used to present selected problems in finance, engineering economics, marketing, organizational behaviour and general management.",
+        prereq:"Successful completion of third year Engineering.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 4417B - CORP FINANCIAL REPORTING",
+        description:"The main objective of this course is to prepare students to become better users of financial statements by developing a knowledge and understanding of some of the key financial reporting concepts and accounting principles and an understanding of the financial reporting system. The course also takes a managerial perspective of financial disclosure.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "BUSINESS 4629B - SALES FOUNDATIONS",
+        description:"This course focuses on the skills, techniques, and strategies required to be successful in today’s increasingly competitive marketplace. Students will learn how to: create a compelling value proposition, package it to resonate with their target buyer(s), deliver the proposition to prospects, and ultimately close deals to drive strategic growth.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 1000A/B - CALCULUS I",
+        description:"Review of limits and derivatives of exponential, logarithmic and rational functions. Trigonometric functions and their inverses. The derivatives of the trig functions and their inverses. L'Hospital's rules. The definite integral. Fundamental theorem of Calculus. Simple substitution. Applications including areas of regions and volumes of solids of revolution.",
+        prereq:"Ontario Secondary School MCV4U or Mathematics 0110A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 1301A/B - CALCULUS II",
+        description:" For students requiring the equivalent of a full course in calculus at a less rigorous level than Calculus 1501A/B. Integration by parts, partial fractions, integral tables, geometric series, harmonic series, Taylor series with applications, arc length of parametric and polar curves, first order linear and separable differential equations with applications.",
+        prereq:"A final mark of at least 55% in either Calculus 1000A/B or Calculus 1500A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 1501B - CALCULUS II",
+        description:"Students who intend to pursue a degree in Actuarial Science, Applied Mathematics, Astronomy, Mathematics, Physics, or Statistics should take this course. Techniques of integration; The Mean Value Theorem and its consequences; series, Taylor series with applications; parametric and polar curves with applications; first order linear and separable differential equations with applications. ",
+        prereq:"A minimum mark of 60% in one of Calculus 1000A/B, Calculus 1500A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 2302A - INTERMEDIATE CALCULUS I",
+        description:"Three dimensional analytic geometry: dot and cross product; equations for lines and planes; quadric surfaces; vector functions and space curves; arc length; curvature; velocity; acceleration. Differential calculus of functions of several variables: level curves and surfaces; limits; continuity; partial derivatives; tangent planes; differentials; chain rule; implicit functions; extrema; Lagrange multipliers. ",
+        prereq:"A minimum mark of 55% in Calculus 1501A/B or Calculus 1301A/B, or Applied Mathematics 1413.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 2303B - INTERMEDIATE CALCULUS II",
+        description:"Integral calculus of functions of several variables: double, triple and iterated integrals; applications; surface area. Vector integral calculus: vector fields; line integrals in the plane; Green's theorem; independence of path; simply connected and multiply connected domains; parametric surfaces and their areas; divergence and Stokes' theorem.",
+        prereq:"Calculus 2502A/B or Calculus 2302A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 2402A - CALCULUS W/ ANALYSIS FOR STATS",
+        description:"Functions of multiple variables and their differential calculus. The gradient and the Hessian. Constrained and unconstrained optimization of scalar-valued functions of many variables: Lagrange multipliers. Multidimensional Taylor series. Integrating scalar-valued functions of several variables: Jacobian transformations. Pointwise and uniform convergence. Power series.",
+        prereq:"Calculus 1301A/B or Calculus 1501A/B or Applied Mathematics 1413, in each case with a minimum mark of 55%.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 2502A - ADVANCED CALCULUS I",
+        description:"Differential calculus of functions of several variables: level curves and surfaces; limits; continuity; partial derivatives; total differentials; Jacobian matrix; chain rule; implicit functions; inverse functions; curvilinear coordinates; derivatives; the Laplacian; Taylor Series; extrema; Lagrange multipliers; vector and scalar fields; divergence and curl.",
+        prereq:"A minimum mark of 60% in Calculus 1501A/B or Applied Mathematics 1413, or Calculus 1301A/B with a mark of at least 85%. Pre-or Corequisite(s): Mathematics 1600A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CALCULUS 2503B - ADVANCED CALCULUS II",
+        description:"Integral calculus of functions of several variables: multiple integrals; Leibnitz' rule; arc length; surface area; Green's theorem; independence of path; simply connected and multiply connected domains; three dimensional theory and applications; divergence theorem; Stokes' theorem.",
+        prereq:"A minimum mark of 60% in Calculus 2502A/B.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 1021F/G - INTRO TO GLOBAL CULTURE",
+        description:"This course explores how studies of our world are shaped by practices of and cultural contestations in mapping, narration, definition, classification, and aesthetic production, informed by historical experiences and politics of knowing. Students learn to gain critical perspectives on contemporary ideas of the world and their own locations in it.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 1022F/G - INTRODUCTION TO GLOBALIZATION",
+        description:"This course offers an interdisciplinary introduction to the dominant material and cultural trends under the conditions of economic globalization. Key topics are labour in the global economy, the globalization of the capitalist mode of production, transnational resource flows, responses to inequality and resistance.",
+        prereq:"None",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "CGS 1023F/G - INTRO TO GLOBAL DEVELOPMENT",
+        description:"This course is an introduction to the interdisciplinary field of international development studies with the focus on investigating the notion of 'poverty'. It will examine the roles of development organizations, states and civil society in addressing globally identified development issues through the negotiation of global development agendas.",
+        prereq:"None",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 2002F - PROBLEMS OF GLOBAL DEVELOPMENT",
+        description:"This course provides a comparative and theoretical examination of societies and cultures undergoing significant change and of the complex global relations between developing and industrialized areas. It offers an interdisciplinary perspective on such issues as economic development, development indicators, gender, foreign policy, development aid, participatory development and post-development.",
+        prereq:"Centre for Global Studies 1023F/G or Centre for Global Studies 2001F/G, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 2003F - DISCOURSES OF GLOBAL STUDIES",
+        description:"This course investigates how methods and objects of inquiry in global studies are formed in the limiting and productive interplay of ideas, language, and social/political force. Students examine how our studies of global problems are made possible in systems of communication that render us responsible for their formation and address.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 2004G - CRITIQUE OF CAPITALISM",
+        description:"This course explores the socio-economic form of 'capitalism', and examines the development and spread of the key features of capitalist social organization - the division of labour, private property, primitive accumulation - and examines their functioning in a rapidly globalizing world.",
+        prereq:" 0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3001F/G - COLLABORATIVE & PARTICIPATORY",
+        description:"This course examines the work of formulating and collaborating in community-based projects. Students learn to recognize and respond to ethical, socio-political, institutional and epistemological dimensions of collaboration, participation and research practice in contexts characterized by forms of inequality. Students prepare a research proposal, funding application and ethics review.",
+        prereq:"0.5 course from Centre for Global Studies 2002F/G - 2004F/G, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3005G - THEORISING SUBJECTIVITY & POWER",
+        description:"This course surveys and investigates recent and contemporary efforts to critically understand human subjectivity and agency in the power relations in which these things are realised. Students will examine theories and analyses of subjectivity and subjectification in terms of material conditions, language and symbolic economies, ideology, bodies, difference, and domination.",
+        prereq:"0.5 course from Centre for Global Studies 2002F/G - 2004F/G, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3006F - CRTCL & ANTI-OPPRESSIVE METHOD",
+        description:" This course addresses collective and community approaches to knowledge production in the service of protecting and promoting cultural, political, and territorial integrity and self-determination. Students learn to engage with empirical research based on emancipatory goals and are introduced to how notions of antioppression, `cosmovision', and interculturalism are mobilized in research. ",
+        prereq:"0.5 course from Centre for Global Studies 2002F/G - 2004F/G, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3509F - INDIGENOUS PPL & GLBL DISPOSS",
+        description:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        prereq:"An examination of the impact of global capitalism and neo-colonialism on territories Indigenous Peoples use and claim. The course examines strategies to secure land-based community autonomy against global dispossession. The question of the coexistence of dominant practices of global development with Indigenous ways of knowing is addressed.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3513F - NON-HEGEMONIC ECON FORMS",
+        description:"An examination of the function and socio-political outcomes of informal, subsistence, land-based and other allied economies in the context of global capitalism. Themes include the production of communitybased economic autonomy, localization, place-making and alternative economic development. ",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3514G - GLOBAL RESISTANCE MOVEMENTS",
+        description:"An examination of the political, social and cultural foundations of resistance movements that claim a transnational, global or international scale. Cases may include: anti-globalization, environmentalism, indigenous people's rights, women's rights, human rights, Fair Trade, and alternative trade organizations.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3515F - GLOBAL CULTURES OF GENDERING",
+        description:"This course examines how material and social orders of our world are organised in practices of gendering and the normalising of social and bodily orientations. Students will engage contemporary feminist and queer theory, practical deployments of gender and orientation globally, and problems of resistance pertinent to the politics of both.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3516F - ECONOMIES OF DEVELOPMENT",
+        description:"This course examines alternative tools for assessing development, such as development indicators and indices (GNP/GDP, Human Development/Poverty Indices, Physical Quality of Life Index, Gender Empowerment Measure), community-based indicators, and explanations of economic development in micro and macro contexts.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3517G - DECOLONIALITY",
+        description:"This course explores decoloniality as a practical and analytical orientation to confrontations with the entrenched injustices identified with coloniality. The course considers decoloniality through characteristic projects, practices and globalized movements to decolonize knowledge, livelihoods, politics and community.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:"random"
+    },
+    {
+        title: "CGS 3519F - GLBL INEQUAL BASED SEXUAL DIFF",
+        description:"This course examines core ways in which persons and populations are situated in positions of inequality under globalization and development contexts on bases of sexual difference and differences in sexuality. Students will study the significance of these differences and will gain practice in research methods appropriate to such a focus.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3520G - OVERCOMING MGMT PARADIGMS",
+        description:"This course critically examines how practices of Global Development are typically reduced to problems of management and how such paradigms are problematic and incompetent with respect to the global inequalities that provoke development as a question. Students will explore alternative approaches, seeking greater practical address of responsibilities in development work.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3522F - GLOBAL MOBILITIES",
+        description:"This course examines how we may analyse human life, globally, as in movement and as different forms of mobilities, and how it is that social, political, economic, legal, and cultural orders in the world are conditioned, at fundamental levels, by efforts to manage, shape, objectify, and discipline movement.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3523G - LAW GLBL RLTNS & LANG OF PWR",
+        description:"This course examines struggles to define subjects of law and establish just rules of behaviour between them within global contexts. Students will examine and critically evaluate often conflicting efforts of movements, actors, institutions, and social groups to make lawful specific ideals or, alternatively, to delegitimise the world views of others. ",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3526G - CHALLENGING RGMS GLB CITIZENS",
+        description:"Examines how practices to promote global citizenship and internationalize learning respond to relations of power. Focus is given to pedagogical strategies initiated by universities, charities, and civil society organizations to situate their memberships within orders of difference. Emphasis is placed on learning critical practices of de-internationalization in global awareness.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 3527G - GLOBLZD CAPITALIST AGRICULTURE",
+        description:"An examination of the deployment and consumption of labour, natural resources, manufactured inputs, and transportation regimes in the production of agricultural products. This course examines each of these broad themes as it is shaped by and produces capitalist social, political, and material relations.",
+        prereq:"0.5 Centre for Global Studies course at the 1000-1099 level, or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },
+    {
+        title: "CGS 4010F - HONORS SEMINAR: POVERTY",
+        description:" Examinations of social, environmental and political sources of structural economic inequality. For core themes and cases in the current session, please see the Centre for Global Studies.",
+        prereq:"0.5 course from Centre for Global Studies 3001F/G-3005F/G or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    },    
+    {
+        title: "CGS 4015G - HONS SEM: POWER & RESISTANCE",
+        description:"Examination of the relations of power and resistance, including studies of forms of oppression, hegemonic structures, and forms of organizing. For core themes in the current session, please see the Centre for Global Studies.",
+        prereq:"0.5 course from Centre for Global Studies 3001F/G-3005F/G or permission of the Centre for Global Studies.",
+        times:"",
+        associations:""
+    }   
     // {
     //     title: "",
     //     description:"",
@@ -171,6 +1683,7 @@ western = [
     //     times:"",
     //     associations:""
     // },
+
 ]
 
 brown = [
