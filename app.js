@@ -19,7 +19,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-//seedDB();
+seedDB();
 
 var model = ""; // define as global variable so it can keep it while changing from different gets
 
