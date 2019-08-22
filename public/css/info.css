@@ -230,6 +230,16 @@ body {
   top:44%;
 }
 
+.description_text_header2 {
+  position:relative;
+  width: 90%;
+  text-align: left;
+  font-size: 1.1vw;
+  font-weight: bolder;
+  margin-top: 6.5%;
+  line-height: 133%;
+  margin-left: 2.1%;
+}
 
 #heading {
   font-family: 'Work Sans', sans-serif;
