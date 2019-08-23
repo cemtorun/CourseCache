@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-image: url("../img/upgrade.png");
+    background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
     background-position:center top;
     background-size: cover;
@@ -109,6 +109,13 @@ body {
 .center_page {
   margin-top: 8px;
   text-align: center;
+}
+
+.center_page2 {
+  margin-top: 8px;
+  margin-left: 13px;
+  text-align: center;
+  animation: appear 5s;
 }
 
 .bottom_section {
@@ -242,4 +249,10 @@ body {
     0% {opacity: 0}
     35% { opacity: 0 }
     100% { opacity: 100% }
+}
+
+@keyframes disappear {
+    0% {opacity: 100%}
+    35% { opacity: 100% }
+    100% { opacity: 0 }
 }

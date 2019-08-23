@@ -195,6 +195,23 @@ body {
   top:44%;
 }
 
+.toomany {
+  position:fixed;
+  width:12%;
+  right: 5.9%;
+  bottom:14.3%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9vw;
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5px;
+  border: 2px solid #DBDADA;
+  font-weight: lighter;
+}
+
 
 #heading {
   font-family: 'Work Sans', sans-serif;

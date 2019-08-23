@@ -43,11 +43,11 @@
     <div class="hot_courses_title">
 	<% if (courses.length == 0) { %>
 			No courses found! Try broadening your search or trying some different keywords!
-		<% } else if (courses.length > 25) { %>
-				Too many courses? Try adding keywords to your search! (ex. 'music science art')
-			</div><br><br><br>
-			<div class="hot_courses_title">
+		<% } else if (courses.length > 15) { %>
 			Courses Found:
+	  </div>
+	  <div class="toomany">
+		  Too many courses? Try adding keywords to your search! (ex. 'music science art')
 		<% } else { %>
 			Courses Found:
 		<% }; %>
@@ -74,6 +74,8 @@
 	  </li>
 	  
 	<%}); %>
+  <br><br>
+  <a class="bottom_link" href="/school?university=<%=school%>"> For more courses, try changing or adding keywords! -></a>
 	  
 
 </html>

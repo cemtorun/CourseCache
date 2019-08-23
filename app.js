@@ -73,6 +73,7 @@ app.get("/:school/courses", function(req, res){
 	};
 	
 	model = eval(school+"Course");
+	console.log(search)
 	
 	model.find({ $text: { $search: finalSearch } }, function(err, courses) {
 	if(err){
