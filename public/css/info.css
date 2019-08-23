@@ -5,6 +5,13 @@
   padding-top: 15vh;
 }
 
+.empty {
+  color: white;
+  position:relative;
+  text-align: center;
+  width:100%;
+}
+
 #logo {
     max-width: 20%;
 }
