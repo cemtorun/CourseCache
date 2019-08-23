@@ -73,16 +73,26 @@ app.get("/:school/courses", function(req, res){
 	};
 	
 	model = eval(school+"Course");
-	console.log(search)
 	
-	model.find({ $text: { $search: finalSearch } }, function(err, courses) {
-	if(err){
-			console.log(err);
-		} else {
-			res.render("index", {courses: courses, school: school}); // represents index.ejs
+	if (search == "random"){
+		model.aggregate([{ $match: { associations : "random" }}, { $sample: {size: 200}}], function(err, randoms) {
+		if(err){
+				console.log(err);
+			} else {
+				res.render("index", {school: school, courses: randoms}); // represents index.ejs
+			}
+		});
+	} else {
+		model.find({ $text: { $search: finalSearch } }, function(err, courses) {
+		if(err){
+				console.log(err);
+			} else {
+				res.render("index", {courses: courses, school: school}); // represents index.ejs
 
-		}
-	});
+			}
+		});
+	};
+	
 });
 	
 // SHOW ROUTE
