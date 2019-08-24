@@ -6,8 +6,10 @@ CourseFinder will take in key words or "interests", then search the university's
 
 There are also options to explore new courses outside of your concentrations such as "I'm feeling lucky".
 
-For now, the development will be done using Node.js/Express back-end with HTML/CSS/JavaScript front-end.
+The development was done using Node.js/Express back-end with HTML/CSS/JavaScript front-end.
+
+Now live at www.course-cache.com!
 
 CourseCache
 
-test
+
