@@ -1,6 +1,8 @@
 # CourseCache (www.course-cache.com)
 
+
 ![Screen Shot 2019-08-24 at 1 42 11 PM](https://user-images.githubusercontent.com/42192106/63640991-0cd0e200-c675-11e9-9d13-90576ca9bbfe.png)
+
 
 CourseCache is an online website that helps students find new, interesting courses based on their interests/willingness to learn something new.
 
@@ -12,6 +14,6 @@ The development was done using Node.js/Express back-end with HTML/CSS/JavaScript
 
 Now live at www.course-cache.com!
 
-CourseCache
+![logo](https://user-images.githubusercontent.com/42192106/63641009-49044280-c675-11e9-934c-749a34980c02.png)
 
 
